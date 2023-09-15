@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gráfico de Barras con Valores en Chart.js</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.0/dist/chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
+</head>
+<body>
+    <div style="width: 80%; margin: 0 auto;">
+        <canvas id="barChart"></canvas>
+    </div>
+
+    <script>
+        // Datos para el gráfico
+        var data = {
+            labels: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo'],
+            datasets: [{
+                label: 'Ventas',
+                backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                data: [12, 19, 3, 5, 2]
+            }, {
+                label: 'Gastos',
+                backgroundColor: 'rgba(255, 99, 132, 0.6)',
+                data: [8, 7, 2, 8, 6]
+            }]
+        };
+
+        // Opciones del gráfico
+        var options = {
+            plugins: {
+                datalabels: {
+                    anchor: 'end', // Ubicación de los valores (puedes ajustarlo según tus preferencias)
+                    align: 'top', // Alineación de los valores
+                    font: {
+                        size: 12, // Tamaño de la fuente de los valores
+                    },
+                },
+            },
+            scales: {
+                x: {
+                    stacked: true
+                },
+                y: {
+                    stacked: true
+                }
+            }
+        };
+
+        // Obtén el elemento canvas
+        var ctx = document.getElementById('barChart').getContext('2d');
+
+        // Crea el gráfico de barras
+        var barChart = new Chart(ctx, {
+            type: 'bar',
+            data: data,
+            options: options
+        });
+    </script>
+</body>
+</html>
