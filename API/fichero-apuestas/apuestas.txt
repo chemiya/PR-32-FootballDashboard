@@ -1,0 +1,469 @@
+pais	fecha	hora	nombre local	nombre visitante	mercado	cuota favor	porcentaje mercado media	proporcion relacionada media	valor	porcentaje mercado en sitio	porcentaje mercado en general	porcentaje mercado en ultimos 4 sitio	porcentaje mercado en ultimos 8 general	proporcion relacionada en sitio	proporcion relacionada en general	proporcion relacionada en ultimos 4 sitio	proporcion relacionada en ultimos 8 general
+china	15-sep	11:35	Beijing Guoan	Zhejiang	ambos marcan	1,57	73,02	3,15	9,33	78,26	63,83	87,5	62,5	3,3	2,98	3,5	2,81
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 2,5	1,66	67,72	3,15	7,48	69,57	63,83	75	62,5	3,3	2,98	3,5	2,81
+china	15-sep	11:35	Beijing Guoan	Zhejiang	handicap +0,5 local	1,3	68,87	0,28	-8,05	78,26	65,96	75	56,25	0,63	0,12	0,75	-0,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 1,5 visitante	2,62	42,88	1,43	4,71	43,48	46,81	37,5	43,75	1,35	1,43	1,5	1,44
+china	15-sep	11:35	Beijing Guoan	Zhejiang	handicap +1,5 visitante	1,3	80,99	0,28	4,07	82,61	85,11	75	81,25	0,63	0,12	0,75	-0,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 1,5	1,2	87,27	3,15	3,94	86,96	80,85	100	81,25	3,3	2,98	3,5	2,81
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 0,5 visitante	1,33	78,28	1,43	3,09	78,26	72,34	87,5	75	1,35	1,43	1,5	1,44
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 2,5 local	1,28	80,44	1,72	2,31	78,26	87,23	75	81,25	1,96	1,55	2	1,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	handicap -0,5 visitante	3,45	31,13	0,28	2,14	21,74	34,04	25	43,75	0,63	0,12	0,75	-0,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 3,5	1,44	69,8	3,15	0,36	65,22	70,21	62,5	81,25	3,3	2,98	3,5	2,81
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 2,5 visitante	6,5	15,31	1,43	-0,07	8,7	21,28	12,5	18,75	1,35	1,43	1,5	1,44
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 0,5 local	1,14	87,32	1,72	-0,4	91,3	82,98	100	75	1,96	1,55	2	1,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 4,5	1,16	85,68	3,15	-0,53	82,61	85,11	87,5	87,5	3,3	2,98	3,5	2,81
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 1,5 local	2	48,67	1,72	-1,33	43,48	57,45	25	68,75	1,96	1,55	2	1,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 2,5 visitante	1,11	84,69	1,43	-5,4	91,3	78,72	87,5	81,25	1,35	1,43	1,5	1,44
+china	15-sep	11:35	Beijing Guoan	Zhejiang	handicap +0,5 visitante	1,875	59,24	0,28	5,91	56,52	61,7	50	68,75	0,63	0,12	0,75	-0,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 0,5 local	5,5	12,68	1,72	-5,5	8,7	17,02	0	25	1,96	1,55	2	1,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 4,5	5	14,32	3,15	-5,68	17,39	14,89	12,5	12,5	3,3	2,98	3,5	2,81
+china	15-sep	11:35	Beijing Guoan	Zhejiang	no empate	1,28	71,89	0,28	-6,23	65,22	72,34	75	75	0,63	0,12	0,75	-0,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 1,5 local	1,72	51,33	1,72	-6,81	56,52	42,55	75	31,25	1,96	1,55	2	1,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 3,5	2,62	30,2	3,15	-7,97	34,78	29,79	37,5	18,75	3,3	2,98	3,5	2,81
+china	15-sep	11:35	Beijing Guoan	Zhejiang	mas 2,5 local	3,5	19,56	1,72	-9,01	21,74	12,77	25	18,75	1,96	1,55	2	1,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 0,5 visitante	3,25	21,72	1,43	-9,05	21,74	27,66	12,5	25	1,35	1,43	1,5	1,44
+china	15-sep	11:35	Beijing Guoan	Zhejiang	handicap -0,5 local	1,975	40,76	0,28	-9,87	43,48	38,3	50	31,25	0,63	0,12	0,75	-0,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	handicap -1,5 local	3,45	19,01	0,28	-9,98	17,39	14,89	25	18,75	0,63	0,12	0,75	-0,38
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 1,5	4,33	12,73	3,15	-10,36	13,04	19,15	0	18,75	3,3	2,98	3,5	2,81
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 1,5 visitante	1,44	57,12	1,43	-12,32	56,52	53,19	62,5	56,25	1,35	1,43	1,5	1,44
+china	15-sep	11:35	Beijing Guoan	Zhejiang	menos 2,5	2,15	32,28	3,15	-14,23	30,43	36,17	25	37,5	3,3	2,98	3,5	2,81
+china	15-sep	11:35	Beijing Guoan	Zhejiang	ambos no marcan	2,25	26,98	3,15	-17,46	21,74	36,17	12,5	37,5	3,3	2,98	3,5	2,81
+brasil	15-sep	0:30	Bragantino	Gremio	menos 3,5	1,36	89,45	2,12	15,92	85	79,07	100	93,75	2,4	2,53	1,62	1,94
+brasil	15-sep	0:30	Bragantino	Gremio	menos 1,5 local	1,8	66,86	1,19	11,3	50	67,44	75	75	1,6	1,26	1	0,88
+brasil	15-sep	0:30	Bragantino	Gremio	menos 2,5 local	1,22	91,2	1,19	9,23	85	86,05	100	93,75	1,6	1,26	1	0,88
+brasil	15-sep	0:30	Bragantino	Gremio	menos 2,5	1,9	61,23	2,12	8,6	50	51,16	75	68,75	2,4	2,53	1,62	1,94
+brasil	15-sep	0:30	Bragantino	Gremio	ambos no marcan	2	58,37	2,12	8,37	55	53,49	50	75	2,4	2,53	1,62	1,94
+brasil	15-sep	0:30	Bragantino	Gremio	handicap +0,5 local	1,25	73,2	0,26	-6,8	80	62,79	87,5	62,5	0,89	-0,22	0,5	-0,12
+brasil	15-sep	0:30	Bragantino	Gremio	menos 4,5	1,12	96,42	2,12	7,13	95	90,7	100	100	2,4	2,53	1,62	1,94
+brasil	15-sep	0:30	Bragantino	Gremio	menos 0,5 visitante	2,62	45,24	0,94	7,07	50	37,21	50	43,75	0,8	1,28	0,62	1,06
+brasil	15-sep	0:30	Bragantino	Gremio	menos 0,5 local	4,5	27,33	1,19	5,11	15	25,58	25	43,75	1,6	1,26	1	0,88
+brasil	15-sep	0:30	Bragantino	Gremio	menos 1,5	3,75	28	2,12	1,33	20	23,26	37,5	31,25	2,4	2,53	1,62	1,94
+brasil	15-sep	0:30	Bragantino	Gremio	handicap +1,5 visitante	1,3	78,2	0,26	1,28	65	79,07	87,5	81,25	0,89	-0,22	0,5	-0,12
+brasil	15-sep	0:30	Bragantino	Gremio	handicap -0,5 visitante	3,8	26,8	0,26	0,48	20	37,21	12,5	37,5	0,89	-0,22	0,5	-0,12
+brasil	15-sep	0:30	Bragantino	Gremio	mas 2,5 visitante	10	9,03	0,94	-0,97	5	18,6	0	12,5	0,8	1,28	0,62	1,06
+brasil	15-sep	0:30	Bragantino	Gremio	menos 1,5 visitante	1,33	72,93	0,94	-2,26	75	60,47	87,5	68,75	0,8	1,28	0,62	1,06
+brasil	15-sep	0:30	Bragantino	Gremio	menos 2,5 visitante	1,062	90,97	0,94	-3,19	95	81,4	100	87,5	0,8	1,28	0,62	1,06
+brasil	15-sep	0:30	Bragantino	Gremio	mas 1,5 visitante	3,25	27,07	0,94	-3,7	25	39,53	12,5	31,25	0,8	1,28	0,62	1,06
+brasil	15-sep	0:30	Bragantino	Gremio	mas 1,5	1,28	72	2,12	-6,12	80	76,74	62,5	68,75	2,4	2,53	1,62	1,94
+brasil	15-sep	0:30	Bragantino	Gremio	handicap +0,5 visitante	1,925	58,78	0,26	6,83	45	65,12	62,5	62,5	0,89	-0,22	0,5	-0,12
+brasil	15-sep	0:30	Bragantino	Gremio	handicap -1,5 local	3,45	21,8	0,26	-7,19	35	20,93	12,5	18,75	0,89	-0,22	0,5	-0,12
+brasil	15-sep	0:30	Bragantino	Gremio	no empate	1,28	68,02	0,26	-10,11	75	72,09	50	75	0,89	-0,22	0,5	-0,12
+brasil	15-sep	0:30	Bragantino	Gremio	handicap -0,5 local	1,925	41,22	0,26	-10,73	55	34,88	37,5	37,5	0,89	-0,22	0,5	-0,12
+brasil	15-sep	0:30	Bragantino	Gremio	mas 0,5 local	1,18	72,67	1,19	-12,08	85	74,42	75	56,25	1,6	1,26	1	0,88
+brasil	15-sep	0:30	Bragantino	Gremio	mas 4,5	6	3,58	2,12	-13,09	5	9,3	0	0	2,4	2,53	1,62	1,94
+brasil	15-sep	0:30	Bragantino	Gremio	mas 2,5	1,9	38,77	2,12	-13,86	50	48,84	25	31,25	2,4	2,53	1,62	1,94
+brasil	15-sep	0:30	Bragantino	Gremio	mas 0,5 visitante	1,44	54,76	0,94	-14,68	50	62,79	50	56,25	0,8	1,28	0,62	1,06
+brasil	15-sep	0:30	Bragantino	Gremio	ambos marcan	1,75	41,63	2,12	-15,51	45	46,51	50	25	2,4	2,53	1,62	1,94
+brasil	15-sep	0:30	Bragantino	Gremio	mas 2,5 local	4	8,8	1,19	-16,2	15	13,95	0	6,25	1,6	1,26	1	0,88
+brasil	15-sep	0:30	Bragantino	Gremio	mas 1,5 local	1,9	33,14	1,19	-19,49	50	32,56	25	25	1,6	1,26	1	0,88
+brasil	15-sep	0:30	Bragantino	Gremio	mas 3,5	3,2	10,55	2,12	-20,7	15	20,93	0	6,25	2,4	2,53	1,62	1,94
+brasil	14-sep	23:00	Coritiba	Bahia	mas 2,5 visitante	8	22,44	1,09	9,94	9,52	30,23	12,5	37,5	0,81	1,51	0,62	1,44
+brasil	14-sep	23:00	Coritiba	Bahia	handicap -1,5 local	4,65	29,38	0,26	7,87	28,57	13,95	50	25	0,35	-0,33	1,25	-0,24
+brasil	14-sep	23:00	Coritiba	Bahia	ambos no marcan	1,95	58,75	2,38	7,47	61,9	41,86	75	56,25	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	menos 0,5 visitante	2,75	43,67	1,09	7,31	42,86	25,58	62,5	43,75	0,81	1,51	0,62	1,44
+brasil	14-sep	23:00	Coritiba	Bahia	mas 3,5	4	27,71	2,38	2,71	9,52	32,56	25	43,75	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	handicap -0,5 visitante	3	34,8	0,26	1,47	28,57	41,86	25	43,75	0,35	-0,33	1,25	-0,24
+brasil	14-sep	23:00	Coritiba	Bahia	no empate	1,33	76,5	0,26	1,31	71,43	72,09	87,5	75	0,35	-0,33	1,25	-0,24
+brasil	14-sep	23:00	Coritiba	Bahia	menos 1,5 visitante	1,36	74,62	1,09	1,09	85,71	62,79	87,5	62,5	0,81	1,51	0,62	1,44
+brasil	14-sep	23:00	Coritiba	Bahia	menos 0,5 local	3,5	29,37	1,29	0,8	33,33	27,91	25	31,25	1,24	1,16	1,62	1,12
+brasil	14-sep	23:00	Coritiba	Bahia	handicap -1,5 visitante	6,8	15,4	0,26	0,69	4,76	25,58	0	31,25	0,35	-0,33	1,25	-0,24
+brasil	14-sep	23:00	Coritiba	Bahia	mas 1,5 local	2,37	42,87	1,29	0,68	42,86	34,88	62,5	31,25	1,24	1,16	1,62	1,12
+brasil	14-sep	23:00	Coritiba	Bahia	menos 1,5	3,2	31,34	2,38	0,09	33,33	23,26	37,5	31,25	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	handicap +0,5 local	1,375	65,2	0,26	-7,53	71,43	58,14	75	56,25	0,35	-0,33	1,25	-0,24
+brasil	14-sep	23:00	Coritiba	Bahia	handicap -0,5 local	2,3	41,71	0,26	-1,77	42,86	30,23	62,5	31,25	0,35	-0,33	1,25	-0,24
+brasil	14-sep	23:00	Coritiba	Bahia	mas 4,5	8	10,35	2,38	-2,15	4,76	11,63	12,5	12,5	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	mas 2,5	2,1	45,35	2,38	-2,27	38,1	55,81	37,5	50	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	menos 4,5	1,083	89,65	2,38	-2,69	95,24	88,37	87,5	87,5	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	mas 2,5 local	5,5	15,27	1,29	-2,91	14,29	9,3	25	12,5	1,24	1,16	1,62	1,12
+brasil	14-sep	23:00	Coritiba	Bahia	menos 2,5 local	1,14	84,73	1,29	-2,99	85,71	90,7	75	87,5	1,24	1,16	1,62	1,12
+brasil	14-sep	23:00	Coritiba	Bahia	menos 2,5	1,72	54,65	2,38	-3,49	61,9	44,19	62,5	50	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	mas 1,5	1,36	68,66	2,38	-4,87	66,67	76,74	62,5	68,75	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	handicap +1,5 local	1,105	84,6	0,26	-5,9	95,24	74,42	100	68,75	0,35	-0,33	1,25	-0,24
+brasil	14-sep	23:00	Coritiba	Bahia	handicap +0,5 visitante	1,6	58,29	0,26	-4,21	57,14	69,77	37,5	68,75	0,35	-0,33	1,25	-0,24
+brasil	14-sep	23:00	Coritiba	Bahia	mas 0,5 local	1,28	70,63	1,29	-7,5	66,67	72,09	75	68,75	1,24	1,16	1,62	1,12
+brasil	14-sep	23:00	Coritiba	Bahia	menos 3,5	1,25	72,29	2,38	-7,71	90,48	67,44	75	56,25	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	mas 1,5 visitante	3	25,38	1,09	-7,95	14,29	37,21	12,5	37,5	0,81	1,51	0,62	1,44
+brasil	14-sep	23:00	Coritiba	Bahia	menos 1,5 local	1,53	57,13	1,29	-8,23	57,14	65,12	37,5	68,75	1,24	1,16	1,62	1,12
+brasil	14-sep	23:00	Coritiba	Bahia	handicap +1,5 visitante	1,18	70,62	0,26	-14,13	71,43	86,05	50	75	0,35	-0,33	1,25	-0,24
+brasil	14-sep	23:00	Coritiba	Bahia	ambos marcan	1,8	41,25	2,38	-14,31	38,1	58,14	25	43,75	2,05	2,67	2,25	2,56
+brasil	14-sep	23:00	Coritiba	Bahia	menos 2,5 visitante	1,083	77,56	1,09	-14,78	90,48	69,77	87,5	62,5	0,81	1,51	0,62	1,44
+brasil	14-sep	23:00	Coritiba	Bahia	mas 0,5 visitante	1,4	56,33	1,09	-15,1	57,14	74,42	37,5	56,25	0,81	1,51	0,62	1,44
+brasil	15-sep	23:00	Cuiaba	America MG	mas 1,5	1,4	92,14	2,87	20,71	95	86,05	100	87,5	3,05	2,72	3	2,69
+brasil	15-sep	23:00	Cuiaba	America MG	mas 2,5 local	5	36,71	1,72	16,71	40	25,58	50	31,25	1,85	1,53	2	1,5
+brasil	15-sep	23:00	Cuiaba	America MG	mas 0,5 visitante	1,53	81,37	1,15	16,01	80	76,74	87,5	81,25	1,2	1,19	1	1,19
+brasil	15-sep	23:00	Cuiaba	America MG	mas 2,5	2,2	58,33	2,87	12,88	65	55,81	62,5	50	3,05	2,72	3	2,69
+brasil	15-sep	23:00	Cuiaba	America MG	ambos marcan	2	60,87	2,87	10,87	65	53,49	75	50	3,05	2,72	3	2,69
+brasil	15-sep	23:00	Cuiaba	America MG	handicap +0,5 local	1,26	74,36	0,88	-5,01	80	67,44	87,5	62,5	0,9	0,51	1,5	0,62
+brasil	15-sep	23:00	Cuiaba	America MG	handicap -1,5 local	3,55	36,71	0,88	8,54	40	25,58	50	31,25	0,9	0,51	1,5	0,62
+brasil	15-sep	23:00	Cuiaba	America MG	mas 3,5	4	32,02	2,87	7,02	40	25,58	37,5	25	3,05	2,72	3	2,69
+brasil	15-sep	23:00	Cuiaba	America MG	mas 1,5 local	2,1	53,19	1,72	5,57	60	46,51	62,5	43,75	1,85	1,53	2	1,5
+brasil	15-sep	23:00	Cuiaba	America MG	menos 4,5	1,083	96,03	2,87	3,69	95	95,35	100	93,75	3,05	2,72	3	2,69
+brasil	15-sep	23:00	Cuiaba	America MG	handicap -0,5 local	1,95	54,4	0,88	3,12	50	48,84	62,5	56,25	0,9	0,51	1,5	0,62
+brasil	15-sep	23:00	Cuiaba	America MG	menos 2,5 visitante	1,05	98,17	1,15	2,93	95	97,67	100	100	1,2	1,19	1	1,19
+brasil	15-sep	23:00	Cuiaba	America MG	mas 1,5 visitante	3,75	29,3	1,15	2,63	30	37,21	12,5	37,5	1,2	1,19	1	1,19
+brasil	15-sep	23:00	Cuiaba	America MG	no empate	1,28	80,04	0,88	1,92	70	81,4	75	93,75	0,9	0,51	1,5	0,62
+brasil	15-sep	23:00	Cuiaba	America MG	mas 0,5 local	1,25	79,5	1,72	-0,5	85	76,74	87,5	68,75	1,85	1,53	2	1,5
+brasil	15-sep	23:00	Cuiaba	America MG	handicap -0,5 visitante	3,7	25,64	0,88	-1,39	20	32,56	12,5	37,5	0,9	0,51	1,5	0,62
+brasil	15-sep	23:00	Cuiaba	America MG	menos 0,5 local	3,75	20,5	1,72	-6,17	15	23,26	12,5	31,25	1,85	1,53	2	1,5
+brasil	15-sep	23:00	Cuiaba	America MG	mas 2,5 visitante	11	1,83	1,15	-7,26	5	2,33	0	0	1,2	1,19	1	1,19
+brasil	15-sep	23:00	Cuiaba	America MG	mas 4,5	8	3,97	2,87	-8,53	5	4,65	0	6,25	3,05	2,72	3	2,69
+brasil	15-sep	23:00	Cuiaba	America MG	handicap +0,5 visitante	1,9	45,6	0,88	-7,03	50	51,16	37,5	43,75	0,9	0,51	1,5	0,62
+brasil	15-sep	23:00	Cuiaba	America MG	menos 1,5 visitante	1,25	70,7	1,15	-9,3	70	62,79	87,5	62,5	1,2	1,19	1	1,19
+brasil	15-sep	23:00	Cuiaba	America MG	menos 3,5	1,25	67,98	2,87	-12,02	60	74,42	62,5	75	3,05	2,72	3	2,69
+brasil	15-sep	23:00	Cuiaba	America MG	menos 1,5 local	1,66	46,81	1,72	-13,43	40	53,49	37,5	56,25	1,85	1,53	2	1,5
+brasil	15-sep	23:00	Cuiaba	America MG	handicap +1,5 visitante	1,275	63,29	0,88	-15,14	60	74,42	50	68,75	0,9	0,51	1,5	0,62
+brasil	15-sep	23:00	Cuiaba	America MG	ambos no marcan	1,75	39,13	2,87	-18,01	35	46,51	25	50	3,05	2,72	3	2,69
+brasil	15-sep	23:00	Cuiaba	America MG	menos 2,5	1,66	41,67	2,87	-18,57	35	44,19	37,5	50	3,05	2,72	3	2,69
+brasil	15-sep	23:00	Cuiaba	America MG	menos 2,5 local	1,16	63,29	1,72	-22,92	60	74,42	50	68,75	1,85	1,53	2	1,5
+brasil	15-sep	23:00	Cuiaba	America MG	menos 0,5 visitante	2,37	18,63	1,15	-23,56	20	23,26	12,5	18,75	1,2	1,19	1	1,19
+brasil	15-sep	23:00	Cuiaba	America MG	menos 1,5	3	7,86	2,87	-25,47	5	13,95	0	12,5	3,05	2,72	3	2,69
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 2,5 visitante	1,05	92,78	1,08	-2,46	95	88,64	100	87,5	0,8	1,34	0,75	1,44
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 4,5	1,12	91,65	2,28	2,36	95	84,09	100	87,5	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 2,5 local	1,28	90,4	1,2	12,28	90	84,09	100	87,5	1,45	1,41	0,88	1,06
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 3,5	1,33	86,56	2,28	11,37	90	75	100	81,25	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	handicap +1,5 visitante	1,4	85,4	0,34	13,97	70	84,09	87,5	100	1	0,22	0,25	-0,13
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 1,5	1,28	83,47	2,28	5,34	85	86,36	75	87,5	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	handicap +0,5 local	1,17	78,92	0,34	-6,55	85	68,18	87,5	75	1	0,22	0,25	-0,13
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 0,5 local	1,16	74,38	1,2	-11,83	85	75	75	62,5	1,45	1,41	0,88	1,06
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 2,5	1,9	70,62	2,28	17,99	70	50	100	62,5	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 0,5 visitante	1,53	70,57	1,08	5,21	55	77,27	62,5	87,5	0,8	1,34	0,75	1,44
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 1,5 visitante	1,25	70,14	1,08	-9,86	80	56,82	87,5	56,25	0,8	1,34	0,75	1,44
+brasil	14-sep	0:30	Flamengo	Athletico PR	handicap +0,5 visitante	2,1	66,9	0,34	19,28	50	61,36	75	81,25	1	0,22	0,25	-0,13
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 1,5 local	1,9	64,63	1,2	12	50	52,27	87,5	68,75	1,45	1,41	0,88	1,06
+brasil	14-sep	0:30	Flamengo	Athletico PR	no empate	1,28	54,17	0,34	-23,95	65	70,45	37,5	43,75	1	0,22	0,25	-0,13
+brasil	14-sep	0:30	Flamengo	Athletico PR	ambos marcan	1,8	53,58	2,28	-1,98	45	56,82	50	62,5	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	ambos no marcan	1,95	46,42	2,28	-4,86	55	43,18	50	37,5	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 1,5 local	1,8	35,37	1,2	-20,19	50	47,73	12,5	31,25	1,45	1,41	0,88	1,06
+brasil	14-sep	0:30	Flamengo	Athletico PR	handicap -0,5 local	1,7	33,1	0,34	-25,72	50	38,64	25	18,75	1	0,22	0,25	-0,13
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 1,5 visitante	3,75	29,86	1,08	3,19	20	43,18	12,5	43,75	0,8	1,34	0,75	1,44
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 0,5 visitante	2,37	29,43	1,08	-12,76	45	22,73	37,5	12,5	0,8	1,34	0,75	1,44
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 2,5	1,9	29,38	2,28	-23,25	30	50	0	37,5	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 0,5 local	5	25,62	1,2	5,62	15	25	25	37,5	1,45	1,41	0,88	1,06
+brasil	14-sep	0:30	Flamengo	Athletico PR	handicap -0,5 visitante	5	21,08	0,34	1,08	15	31,82	12,5	25	1	0,22	0,25	-0,13
+brasil	14-sep	0:30	Flamengo	Athletico PR	menos 1,5	3,75	16,53	2,28	-10,14	15	13,64	25	12,5	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	handicap -1,5 local	2,85	14,6	0,34	-20,49	30	15,91	12,5	0	1	0,22	0,25	-0,13
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 3,5	3,4	13,44	2,28	-15,97	10	25	0	18,75	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 2,5 local	3,5	9,6	1,2	-18,97	10	15,91	0	12,5	1,45	1,41	0,88	1,06
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 4,5	6	8,35	2,28	-8,32	5	15,91	0	12,5	2,25	2,75	1,62	2,5
+brasil	14-sep	0:30	Flamengo	Athletico PR	mas 2,5 visitante	11	7,22	1,08	-1,87	5	11,36	0	12,5	0,8	1,34	0,75	1,44
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 0,5 local	4	39,53	1,19	14,53	31,82	32,56	50	43,75	1,45	1,12	1,25	0,94
+brasil	14-sep	22:00	Fortaleza	Corinthians	handicap -0,5 visitante	4,4	34,56	0,17	11,83	18,18	32,56	37,5	50	1,09	0,21	0	-0,63
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 1,5 local	1,72	68,18	1,19	10,04	54,55	74,42	62,5	81,25	1,45	1,12	1,25	0,94
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 0,5 visitante	1,66	66,83	1,05	6,59	54,55	62,79	75	75	0,77	1	1,12	1,31
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 2,5 visitante	15	12,84	1,05	6,17	4,55	9,3	12,5	25	0,77	1	1,12	1,31
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 3,5	4,33	29,08	2,25	5,99	22,73	18,6	37,5	37,5	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	handicap +0,5 visitante	2,05	66,12	0,17	17,34	45,45	62,79	75	81,25	1,09	0,21	0	-0,63
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 4,5	1,071	98,28	2,25	4,91	95,45	97,67	100	100	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 1,5	3	38,12	2,25	4,79	36,36	34,88	37,5	43,75	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	handicap +1,5 visitante	1,35	78,02	0,17	3,95	68,18	81,4	75	87,5	1,09	0,21	0	-0,63
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 1,5 visitante	4,33	25,59	1,05	2,5	18,18	27,91	25	31,25	0,77	1	1,12	1,31
+brasil	14-sep	22:00	Fortaleza	Corinthians	ambos no marcan	1,7	60,13	2,25	1,31	63,64	58,14	62,5	56,25	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	handicap +0,5 local	1,2	65,44	0,17	-17,89	81,82	67,44	62,5	50	1,09	0,21	0	-0,63
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 2,5 local	1,2	81,45	1,19	-1,88	77,27	86,05	75	87,5	1,45	1,12	1,25	0,94
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 2,5	1,66	57,62	2,25	-2,62	59,09	65,12	50	56,25	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 2,5	2,2	42,38	2,25	-3,07	40,91	34,88	50	43,75	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 2,5 local	4,33	18,55	1,19	-4,54	22,73	13,95	25	12,5	1,45	1,12	1,25	0,94
+brasil	14-sep	22:00	Fortaleza	Corinthians	ambos marcan	2,05	39,87	2,25	-8,91	36,36	41,86	37,5	43,75	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 1,5 visitante	1,2	74,41	1,05	-8,92	81,82	72,09	75	68,75	0,77	1	1,12	1,31
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 4,5	9	1,72	2,25	-9,39	4,55	2,33	0	0	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 1,5	1,4	61,88	2,25	-9,55	63,64	65,12	62,5	56,25	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	no empate	1,28	68,44	0,17	-9,69	72,73	69,77	62,5	68,75	1,09	0,21	0	-0,63
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 2,5 visitante	1,03	87,16	1,05	-9,93	95,45	90,7	87,5	75	0,77	1	1,12	1,31
+brasil	14-sep	22:00	Fortaleza	Corinthians	handicap -1,5 local	3,1	21,98	0,17	-10,28	31,82	18,6	25	12,5	1,09	0,21	0	-0,63
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 3,5	1,22	70,92	2,25	-11,05	77,27	81,4	62,5	62,5	2,23	2,12	2,38	2,25
+brasil	14-sep	22:00	Fortaleza	Corinthians	menos 0,5 visitante	2,1	33,17	1,05	-14,45	45,45	37,21	25	25	0,77	1	1,12	1,31
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 1,5 local	2	31,82	1,19	-18,18	45,45	25,58	37,5	18,75	1,45	1,12	1,25	0,94
+brasil	14-sep	22:00	Fortaleza	Corinthians	mas 0,5 local	1,22	60,47	1,19	-21,5	68,18	67,44	50	56,25	1,45	1,12	1,25	0,94
+brasil	14-sep	22:00	Fortaleza	Corinthians	handicap -0,5 local	1,75	33,88	0,17	-23,26	54,55	37,21	25	18,75	1,09	0,21	0	-0,63
+finlandia	15-sep	15:00	Haka	Ilves	handicap +0,5 local	1,375	84,66	0,65	11,93	90,91	72,73	87,5	87,5	0,54	0,18	0,75	1,12
+finlandia	15-sep	15:00	Haka	Ilves	mas 0,5 local	1,25	84,66	1,38	4,66	86,36	77,27	87,5	87,5	1,36	1,23	1,38	1,56
+finlandia	15-sep	15:00	Haka	Ilves	handicap +1,5 visitante	1,21	87,08	0,65	4,44	90,91	88,64	87,5	81,25	0,54	0,18	0,75	1,12
+finlandia	15-sep	15:00	Haka	Ilves	menos 2,5 local	1,16	89,77	1,38	3,56	90,91	93,18	87,5	87,5	1,36	1,23	1,38	1,56
+finlandia	15-sep	15:00	Haka	Ilves	mas 1,5	1,3	78,83	2,55	1,91	77,27	81,82	75	81,25	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	ambos marcan	1,8	57,25	2,55	1,69	63,64	59,09	50	56,25	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	menos 2,5	1,85	55,54	2,55	1,49	63,64	52,27	62,5	43,75	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	mas 1,5 visitante	2,75	35,94	1,17	-0,42	36,36	38,64	37,5	31,25	1,14	1,3	1,12	1,12
+finlandia	15-sep	15:00	Haka	Ilves	menos 3,5	1,3	76,14	2,55	-0,78	72,73	81,82	75	75	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	menos 4,5	1,1	89,77	2,55	-1,14	90,91	93,18	87,5	87,5	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	mas 2,5 visitante	8	10,23	1,17	-2,27	4,55	11,36	12,5	12,5	1,14	1,3	1,12	1,12
+finlandia	15-sep	15:00	Haka	Ilves	handicap -0,5 local	2,15	44,17	0,65	-2,34	36,36	34,09	50	56,25	0,54	0,18	0,75	1,12
+finlandia	15-sep	15:00	Haka	Ilves	menos 2,5 visitante	1,083	89,77	1,17	-2,57	95,45	88,64	87,5	87,5	1,14	1,3	1,12	1,12
+finlandia	15-sep	15:00	Haka	Ilves	handicap +1,5 local	1,11	87,5	0,65	-2,59	90,91	84,09	87,5	87,5	0,54	0,18	0,75	1,12
+finlandia	15-sep	15:00	Haka	Ilves	handicap -1,5 visitante	6,6	12,5	0,65	-2,65	9,09	15,91	12,5	12,5	0,54	0,18	0,75	1,12
+finlandia	15-sep	15:00	Haka	Ilves	mas 0,5 visitante	1,4	68,75	1,17	-2,68	72,73	77,27	62,5	62,5	1,14	1,3	1,12	1,12
+finlandia	15-sep	15:00	Haka	Ilves	menos 1,5 local	1,61	58,38	1,38	-3,73	63,64	63,64	62,5	43,75	1,36	1,23	1,38	1,56
+finlandia	15-sep	15:00	Haka	Ilves	mas 1,5 local	2,2	41,62	1,38	-3,83	36,36	36,36	37,5	56,25	1,36	1,23	1,38	1,56
+finlandia	15-sep	15:00	Haka	Ilves	mas 4,5	7	10,23	2,55	-4,06	9,09	6,82	12,5	12,5	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	menos 0,5 visitante	2,75	31,25	1,17	-5,11	27,27	22,73	37,5	37,5	1,14	1,3	1,12	1,12
+finlandia	15-sep	15:00	Haka	Ilves	mas 3,5	3,4	23,86	2,55	-5,55	27,27	18,18	25	25	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	mas 2,5	1,95	44,46	2,55	-6,82	36,36	47,73	37,5	56,25	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	menos 1,5 visitante	1,4	64,06	1,17	-7,37	63,64	61,36	62,5	68,75	1,14	1,3	1,12	1,12
+finlandia	15-sep	15:00	Haka	Ilves	handicap +0,5 visitante	1,675	55,83	0,65	-3,87	63,64	65,91	50	43,75	0,54	0,18	0,75	1,12
+finlandia	15-sep	15:00	Haka	Ilves	menos 1,5	3,4	21,17	2,55	-8,24	22,73	18,18	25	18,75	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	ambos no marcan	1,95	42,75	2,55	-8,53	36,36	40,91	50	43,75	2,5	2,52	2,5	2,69
+finlandia	15-sep	15:00	Haka	Ilves	mas 2,5 local	5	10,23	1,38	-9,77	9,09	6,82	12,5	12,5	1,36	1,23	1,38	1,56
+finlandia	15-sep	15:00	Haka	Ilves	handicap -1,5 local	4,25	12,93	0,65	-10,6	9,09	11,36	12,5	18,75	0,54	0,18	0,75	1,12
+finlandia	15-sep	15:00	Haka	Ilves	menos 0,5 local	3,75	15,34	1,38	-11,33	13,64	22,73	12,5	12,5	1,36	1,23	1,38	1,56
+finlandia	15-sep	15:00	Haka	Ilves	handicap -0,5 visitante	3	15,34	0,65	-17,99	9,09	27,27	12,5	12,5	0,54	0,18	0,75	1,12
+finlandia	15-sep	15:00	Haka	Ilves	no empate	1,28	59,52	0,65	-18,6	45,45	61,36	62,5	68,75	0,54	0,18	0,75	1,12
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 2,5 local	1,1	100	0,93	9,09	100	100	100	100	1,1	0,88	1	0,75
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 4,5	1,05	97,28	1,9	2,04	100	95,35	100	93,75	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	handicap +1,5 visitante	1,18	95,44	0,15	10,69	95	93,02	100	93,75	1	-0,15	0	-0,26
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 2,5 visitante	1,05	93,97	0,97	-1,27	100	88,37	100	87,5	0,8	1,14	1	0,94
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 3,5	1,16	88,03	1,9	1,82	95	88,37	87,5	81,25	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 1,5 visitante	1,25	75,61	0,97	-4,39	85	67,44	75	75	0,8	1,14	1	0,94
+brasil	14-sep	0:30	Internacional	Sao Paulo	handicap +0,5 local	1,325	75,03	0,15	-0,44	85	65,12	75	75	1	-0,15	0	-0,26
+brasil	14-sep	0:30	Internacional	Sao Paulo	handicap +0,5 visitante	1,625	70,25	0,15	8,71	55	69,77	75	81,25	1	-0,15	0	-0,26
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 1,5 local	1,44	67,4	0,93	-2,04	60	72,09	62,5	75	1,1	0,88	1	0,75
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 0,5 visitante	1,57	63,78	0,97	0,09	65	65,12	75	50	0,8	1,14	1	0,94
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 1,5	1,5	61,23	1,9	-5,44	65	67,44	62,5	50	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 0,5 local	1,36	60,74	0,93	-12,79	70	60,47	62,5	50	1,1	0,88	1	0,75
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 2,5	1,5	58,82	1,9	-7,85	60	62,79	50	62,5	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	no empate	1,36	54,72	0,15	-18,81	60	65,12	50	43,75	1	-0,15	0	-0,26
+brasil	14-sep	0:30	Internacional	Sao Paulo	ambos marcan	2,2	51,94	1,9	6,49	55	46,51	62,5	43,75	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	ambos no marcan	1,61	48,06	1,9	-14,05	45	53,49	37,5	56,25	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 2,5	2,62	41,18	1,9	3,01	40	37,21	50	37,5	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 0,5 local	3	39,26	0,93	5,93	30	39,53	37,5	50	1,1	0,88	1	0,75
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 1,5	2,62	38,77	1,9	0,6	35	32,56	37,5	50	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	menos 0,5 visitante	2,25	36,22	0,97	-8,22	35	34,88	25	50	0,8	1,14	1	0,94
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 1,5 local	2,62	32,6	0,93	-5,57	40	27,91	37,5	25	1,1	0,88	1	0,75
+brasil	14-sep	0:30	Internacional	Sao Paulo	handicap -0,5 local	2,25	29,75	0,15	-14,69	45	30,23	25	18,75	1	-0,15	0	-0,26
+brasil	14-sep	0:30	Internacional	Sao Paulo	handicap -0,5 visitante	3,3	24,97	0,15	-5,33	15	34,88	25	25	1	-0,15	0	-0,26
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 1,5 visitante	3,75	24,39	0,97	-2,28	15	32,56	25	25	0,8	1,14	1	0,94
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 3,5	5	11,97	1,9	-8,03	5	11,63	12,5	18,75	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 2,5 visitante	11	6,03	0,97	-3,06	0	11,63	0	12,5	0,8	1,14	1	0,94
+brasil	14-sep	0:30	Internacional	Sao Paulo	handicap -1,5 local	4,65	4,56	0,15	-16,95	5	6,98	0	6,25	1	-0,15	0	-0,26
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 4,5	11	2,72	1,9	-6,37	0	4,65	0	6,25	1,9	2,02	2	1,69
+brasil	14-sep	0:30	Internacional	Sao Paulo	mas 2,5 local	7	0	0,93	-14,29	0	0	0	0	1,1	0,88	1	0,75
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 0,5 local	5	30	1,45	10	20	25	37,5	37,5	1,44	1,37	1,62	1,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	handicap -0,5 visitante	3,7	35,93	0,05	8,9	24	38,46	37,5	43,75	0,56	0	0	-0,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 1,5	4	32,44	2,7	7,44	36	25	37,5	31,25	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	handicap +1,5 visitante	1,3	82,26	0,05	5,34	80	86,54	75	87,5	0,56	0	0	-0,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 0,5 visitante	1,4	73,29	1,25	1,86	60	76,92	75	81,25	0,92	1,33	1,25	1,5
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 1,5 visitante	3	34,25	1,25	0,92	24	44,23	25	43,75	0,92	1,33	1,25	1,5
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 4,5	1,14	87,86	2,7	0,14	88	88,46	87,5	87,5	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	ambos no marcan	2,1	47,58	2,7	-0,04	48	42,31	50	50	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 2,5 visitante	8	11,22	1,25	-1,28	4	9,62	12,5	18,75	0,92	1,33	1,25	1,5
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 3,5	1,4	69,52	2,7	-1,91	80	73,08	62,5	62,5	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 2,5	1,75	54,23	2,7	-2,91	40	51,92	62,5	62,5	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 1,5 local	1,83	51,7	1,45	-2,94	64	61,54	37,5	43,75	1,44	1,37	1,62	1,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 2,5	2,05	45,77	2,7	-3,01	60	48,08	37,5	37,5	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 2,5 local	3,75	23,39	1,45	-3,28	20	17,31	37,5	18,75	1,44	1,37	1,62	1,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 2,5 local	1,25	76,61	1,45	-3,39	80	82,69	62,5	81,25	1,44	1,37	1,62	1,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 2,5 visitante	1,083	88,78	1,25	-3,56	96	90,38	87,5	81,25	0,92	1,33	1,25	1,5
+japon	15-sep	10:00	K, Frontale	FC Tokyo	handicap +0,5 local	1,26	64,07	0,05	-15,3	76	61,54	62,5	56,25	0,56	0	0	-0,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	no empate	1,28	73,73	0,05	-4,39	68	76,92	75	75	0,56	0	0	-0,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	handicap +0,5 visitante	1,925	62,2	0,05	10,25	56	61,54	62,5	68,75	0,56	0	0	-0,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 3,5	2,75	30,48	2,7	-5,88	20	26,92	37,5	37,5	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 4,5	5,5	12,14	2,7	-6,04	12	11,54	12,5	12,5	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 1,5 local	1,83	48,3	1,45	-6,34	36	38,46	62,5	56,25	1,44	1,37	1,62	1,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 1,5 visitante	1,36	65,75	1,25	-7,78	76	55,77	75	56,25	0,92	1,33	1,25	1,5
+japon	15-sep	10:00	K, Frontale	FC Tokyo	ambos marcan	1,66	52,42	2,7	-7,82	52	57,69	50	50	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	menos 0,5 visitante	2,75	26,71	1,25	-9,65	40	23,08	25	18,75	0,92	1,33	1,25	1,5
+japon	15-sep	10:00	K, Frontale	FC Tokyo	handicap -1,5 local	3,45	17,74	0,05	-11,25	20	13,46	25	12,5	0,56	0	0	-0,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	handicap -0,5 local	1,925	37,8	0,05	-14,15	44	38,46	37,5	31,25	0,56	0	0	-0,38
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 1,5	1,22	67,56	2,7	-14,41	64	75	62,5	68,75	2,36	2,69	2,88	2,88
+japon	15-sep	10:00	K, Frontale	FC Tokyo	mas 0,5 local	1,16	70	1,45	-16,21	80	75	62,5	62,5	1,44	1,37	1,62	1,38
+finlandia	15-sep	15:00	Lahti	KTP	mas 1,5 visitante	2,75	42,33	1,25	5,97	40,91	40,91	50	37,5	1,18	1,18	1,38	1,25
+finlandia	15-sep	15:00	Lahti	KTP	no empate	1,28	83,95	0,4	5,83	81,82	72,73	100	81,25	0,27	0,09	0,75	0,5
+finlandia	15-sep	15:00	Lahti	KTP	mas 4,5	6,5	19,46	2,71	4,08	18,18	15,91	25	18,75	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	handicap -0,5 local	2,15	49,15	0,4	2,64	45,45	38,64	62,5	50	0,27	0,09	0,75	0,5
+finlandia	15-sep	15:00	Lahti	KTP	handicap -0,5 visitante	3	34,8	0,4	1,47	36,36	34,09	37,5	31,25	0,27	0,09	0,75	0,5
+finlandia	15-sep	15:00	Lahti	KTP	handicap +1,5 visitante	1,225	82,24	0,4	0,61	86,36	86,36	75	81,25	0,27	0,09	0,75	0,5
+finlandia	15-sep	15:00	Lahti	KTP	ambos marcan	1,75	57,24	2,71	0,1	50	47,73	62,5	68,75	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	menos 2,5 visitante	1,1	90,77	1,25	-0,14	90,91	90,91	87,5	93,75	1,18	1,18	1,38	1,25
+finlandia	15-sep	15:00	Lahti	KTP	mas 1,5 local	2,1	46,3	1,47	-1,32	36,36	36,36	62,5	50	1,32	1,23	1,75	1,56
+finlandia	15-sep	15:00	Lahti	KTP	mas 1,5	1,28	76,7	2,71	-1,42	63,64	68,18	87,5	87,5	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	menos 3,5	1,33	73,58	2,71	-1,61	77,27	79,55	62,5	75	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	menos 0,5 local	4	23,15	1,47	-1,85	27,27	34,09	12,5	18,75	1,32	1,23	1,75	1,56
+finlandia	15-sep	15:00	Lahti	KTP	handicap +1,5 local	1,11	88,07	0,4	-2,02	90,91	86,36	87,5	87,5	0,27	0,09	0,75	0,5
+finlandia	15-sep	15:00	Lahti	KTP	mas 0,5 visitante	1,36	71,45	1,25	-2,08	63,64	65,91	75	81,25	1,18	1,18	1,38	1,25
+finlandia	15-sep	15:00	Lahti	KTP	mas 2,5	1,85	51,84	2,71	-2,21	45,45	43,18	62,5	56,25	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	mas 2,5 local	4,5	19,46	1,47	-2,76	18,18	15,91	25	18,75	1,32	1,23	1,75	1,56
+finlandia	15-sep	15:00	Lahti	KTP	menos 2,5	1,95	48,16	2,71	-3,12	54,55	56,82	37,5	43,75	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	handicap -1,5 visitante	6,6	11,93	0,4	-3,22	9,09	13,64	12,5	12,5	0,27	0,09	0,75	0,5
+finlandia	15-sep	15:00	Lahti	KTP	handicap +0,5 local	1,375	65,2	0,4	-7,53	63,64	65,91	62,5	68,75	0,27	0,09	0,75	0,5
+finlandia	15-sep	15:00	Lahti	KTP	menos 2,5 local	1,18	80,54	1,47	-4,21	81,82	84,09	75	81,25	1,32	1,23	1,75	1,56
+finlandia	15-sep	15:00	Lahti	KTP	mas 3,5	3,25	26,42	2,71	-4,35	22,73	20,45	37,5	25	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	menos 0,5 visitante	3	28,55	1,25	-4,78	36,36	34,09	25	18,75	1,18	1,18	1,38	1,25
+finlandia	15-sep	15:00	Lahti	KTP	mas 2,5 visitante	7	9,23	1,25	-5,06	9,09	9,09	12,5	6,25	1,18	1,18	1,38	1,25
+finlandia	15-sep	15:00	Lahti	KTP	mas 0,5 local	1,22	76,85	1,47	-5,12	72,73	65,91	87,5	81,25	1,32	1,23	1,75	1,56
+finlandia	15-sep	15:00	Lahti	KTP	menos 1,5	3,5	23,3	2,71	-5,27	36,36	31,82	12,5	12,5	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	menos 1,5 local	1,66	53,7	1,47	-6,54	63,64	63,64	37,5	50	1,32	1,23	1,75	1,56
+finlandia	15-sep	15:00	Lahti	KTP	handicap -1,5 local	4,1	17,76	0,4	-6,63	13,64	13,64	25	18,75	0,27	0,09	0,75	0,5
+finlandia	15-sep	15:00	Lahti	KTP	ambos no marcan	2	42,76	2,71	-7,24	50	52,27	37,5	31,25	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	handicap +0,5 visitante	1,675	50,85	0,4	-8,85	54,55	61,36	37,5	50	0,27	0,09	0,75	0,5
+finlandia	15-sep	15:00	Lahti	KTP	menos 4,5	1,11	80,54	2,71	-9,55	81,82	84,09	75	81,25	2,5	2,41	3,12	2,81
+finlandia	15-sep	15:00	Lahti	KTP	menos 1,5 visitante	1,4	57,67	1,25	-13,76	59,09	59,09	50	62,5	1,18	1,18	1,38	1,25
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 1,5 local	3,25	55,73	1,81	24,96	45,83	58,33	62,5	56,25	1,96	1,6	1,88	1,81
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 1,5	5	41,14	2,44	21,14	33,33	31,25	62,5	37,5	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	handicap +1,5 visitante	2,05	69,27	1,45	20,49	66,67	79,17	62,5	68,75	2,17	0,87	2	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 2,5	2,35	59,9	2,44	17,35	54,17	54,17	75	56,25	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 2,5 local	1,66	73,44	1,81	13,2	66,67	77,08	75	75	1,96	1,6	1,88	1,81
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 3,5	1,53	76,04	2,44	10,68	79,17	75	75	75	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 0,5 local	10	20,31	1,81	10,31	12,5	18,75	25	25	1,96	1,6	1,88	1,81
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	ambos no marcan	1,75	67,19	2,44	10,05	58,33	54,17	87,5	68,75	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 4,5	1,22	83,85	2,44	1,88	83,33	83,33	87,5	81,25	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 0,5 visitante	1,83	55,21	0,62	0,57	54,17	41,67	75	50	0,54	0,96	0,25	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 2,5 visitante	21	3,64	0,62	-1,12	0	8,33	0	6,25	0,54	0,96	0,25	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 2,5 visitante	1,015	96,36	0,62	-2,16	100	91,67	100	93,75	0,54	0,96	0,25	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	menos 1,5 visitante	1,12	86,98	0,62	-2,31	91,67	75	100	81,25	0,54	0,96	0,25	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 1,5 visitante	6	13,02	0,62	-3,65	8,33	25	0	18,75	0,54	0,96	0,25	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	no empate	1,14	81,77	1,45	-5,95	79,17	72,92	87,5	87,5	2,17	0,87	2	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 4,5	4	16,15	2,44	-8,85	16,67	16,67	12,5	18,75	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 0,5 visitante	1,83	44,79	0,62	-9,85	45,83	58,33	25	50	0,54	0,96	0,25	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 0,5 local	1,062	79,69	1,81	-14,47	87,5	81,25	75	75	1,96	1,6	1,88	1,81
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	handicap -0,5 local	1,25	64,58	1,45	-15,42	75	52,08	75	56,25	2,17	0,87	2	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	ambos marcan	2	32,81	2,44	-17,19	41,67	45,83	12,5	31,25	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	handicap +0,5 visitante	3,8	35,42	1,45	9,1	25	47,92	25	43,75	2,17	0,87	2	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 3,5	2,37	23,96	2,44	-18,23	20,83	25	25	25	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 2,5 local	2,1	26,56	1,81	-21,06	33,33	22,92	25	25	1,96	1,6	1,88	1,81
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 2,5	1,57	40,1	2,44	-23,59	45,83	45,83	25	43,75	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	handicap -1,5 local	1,75	30,73	1,45	-26,41	33,33	20,83	37,5	31,25	2,17	0,87	2	0,75
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 1,5	1,16	58,86	2,44	-27,35	66,67	68,75	37,5	62,5	2,5	2,56	2,12	2,56
+china	15-sep	11:35	S, Taishan	Qingdao Jonoon	mas 1,5 local	1,33	44,27	1,81	-30,92	54,17	41,67	37,5	43,75	1,96	1,6	1,88	1,81
+brasil	14-sep	22:00	Santos	Cruzeiro	ambos marcan	2,05	46,62	2,67	-2,16	52,38	34,09	62,5	37,5	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	ambos no marcan	1,7	53,38	2,67	-5,44	47,62	65,91	37,5	62,5	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	handicap +0,5 local	1,4	73,45	0,26	2,02	76,19	61,36	87,5	68,75	0,25	-0,23	1	0
+brasil	14-sep	22:00	Santos	Cruzeiro	handicap +0,5 visitante	1,525	65,53	0,26	-0,04	66,67	70,45	50	75	0,25	-0,23	1	0
+brasil	14-sep	22:00	Santos	Cruzeiro	handicap +1,5 local	1,105	85,06	0,26	-5,44	85,71	79,55	100	75	0,25	-0,23	1	0
+brasil	14-sep	22:00	Santos	Cruzeiro	handicap +1,5 visitante	1,15	91,23	0,26	4,27	90,48	93,18	87,5	93,75	0,25	-0,23	1	0
+brasil	14-sep	22:00	Santos	Cruzeiro	handicap -0,5 local	2,425	34,47	0,26	-6,77	33,33	29,55	50	25	0,25	-0,23	1	0
+brasil	14-sep	22:00	Santos	Cruzeiro	handicap -0,5 visitante	2,85	26,55	0,26	-8,54	23,81	38,64	12,5	31,25	0,25	-0,23	1	0
+brasil	14-sep	22:00	Santos	Cruzeiro	handicap -1,5 local	5,5	8,77	0,26	-9,41	9,52	6,82	12,5	6,25	0,25	-0,23	1	0
+brasil	14-sep	22:00	Santos	Cruzeiro	handicap -1,5 visitante	6,8	14,93	0,26	0,22	14,29	20,45	0	25	0,25	-0,23	1	0
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 0,5 local	1,36	66,24	1,32	-7,29	66,67	54,55	87,5	56,25	1,43	0,93	2	0,94
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 0,5 visitante	1,44	68,14	1,35	-1,3	71,43	63,64	75	62,5	1,43	1,27	1,38	1,31
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 1,5	1,5	68,19	2,67	1,52	76,19	59,09	75	62,5	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 1,5 local	2,75	40,03	1,32	3,67	47,62	25	62,5	25	1,43	0,93	2	0,94
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 1,5 visitante	3,4	39,12	1,35	9,71	42,86	38,64	37,5	37,5	1,43	1,27	1,38	1,31
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 2,5	2,5	48,95	2,67	8,95	57,14	38,64	62,5	37,5	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 2,5 local	8	21,29	1,32	8,79	23,81	11,36	37,5	12,5	1,43	0,93	2	0,94
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 2,5 visitante	10	21,44	1,35	11,44	23,81	18,18	25	18,75	1,43	1,27	1,38	1,31
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 3,5	5	29,07	2,67	9,07	33,33	20,45	37,5	25	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	mas 4,5	11	16,98	2,67	7,89	19,05	11,36	25	12,5	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 0,5 local	3	33,76	1,32	0,43	33,33	45,45	12,5	43,75	1,43	0,93	2	0,94
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 0,5 visitante	2,62	31,86	1,35	-6,31	28,57	36,36	25	37,5	1,43	1,27	1,38	1,31
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 1,5	2,62	31,81	2,67	-6,36	23,81	40,91	25	37,5	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 1,5 local	1,4	59,97	1,32	-11,46	52,38	75	37,5	75	1,43	0,93	2	0,94
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 1,5 visitante	1,3	60,88	1,35	-16,04	57,14	61,36	62,5	62,5	1,43	1,27	1,38	1,31
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 2,5	1,53	51,05	2,67	-14,31	42,86	61,36	37,5	62,5	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 2,5 local	1,083	78,71	1,32	-13,63	76,19	88,64	62,5	87,5	1,43	0,93	2	0,94
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 2,5 visitante	1,062	78,56	1,35	-15,6	76,19	81,82	75	81,25	1,43	1,27	1,38	1,31
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 3,5	1,16	70,93	2,67	-15,28	66,67	79,55	62,5	75	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	menos 4,5	1,05	83,02	2,67	-12,22	80,95	88,64	75	87,5	2,86	2,2	3,38	2,25
+brasil	14-sep	22:00	Santos	Cruzeiro	no empate	1,36	61,02	0,26	-12,51	57,14	68,18	62,5	56,25	0,25	-0,23	1	0
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	handicap +1,5 visitante	2,05	75,52	0,95	26,74	83,33	75	75	68,75	1	0,79	1,25	0,75
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 1,5 local	3,75	48,44	1,86	21,77	41,67	45,83	50	56,25	1,83	1,85	1,75	2
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 2,5	3,4	44,27	3,04	14,86	41,67	41,67	50	43,75	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 1,5	7	27,08	3,04	12,79	25	20,83	37,5	25	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 0,5 local	13	20,31	1,86	12,62	20,83	16,67	25	18,75	1,83	1,85	1,75	2
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 2,5 local	1,83	65,62	1,86	10,98	66,67	70,83	62,5	62,5	1,83	1,85	1,75	2
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 3,5	1,83	63,54	3,04	8,9	62,5	60,42	75	56,25	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 2,5 visitante	11	15,11	1,18	6,02	12,5	16,67	12,5	18,75	1,33	1,27	1	1,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 1,5 visitante	3,75	28,64	1,18	1,97	33,33	31,25	25	25	1,33	1,27	1	1,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 0,5 visitante	1,53	66,15	1,18	0,79	79,17	72,92	50	62,5	1,33	1,27	1	1,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	ambos marcan	1,66	58,86	3,04	-1,38	66,67	62,5	50	56,25	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 4,5	1,36	71,88	3,04	-1,65	70,83	72,92	75	68,75	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 4,5	3	28,12	3,04	-5,21	29,17	27,08	25	31,25	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	ambos no marcan	2,1	41,14	3,04	-6,48	33,33	37,5	50	43,75	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	handicap +0,5 visitante	3,45	50,52	0,95	21,53	45,83	50	50	56,25	1	0,79	1,25	0,75
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 0,5 visitante	2,37	33,85	1,18	-8,34	20,83	27,08	50	37,5	1,33	1,27	1	1,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 1,5 visitante	1,25	71,36	1,18	-8,64	66,67	68,75	75	75	1,33	1,27	1	1,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	menos 2,5 visitante	1,05	84,89	1,18	-10,35	87,5	83,33	87,5	81,25	1,33	1,27	1	1,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 0,5 local	1,04	79,69	1,86	-16,46	79,17	83,33	75	81,25	1,83	1,85	1,75	2
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 1,5	1,1	72,92	3,04	-17,99	75	79,17	62,5	75	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 3,5	1,83	36,46	3,04	-18,18	37,5	39,58	25	43,75	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	no empate	1,12	70,31	0,95	-18,98	75	75	62,5	68,75	1	0,79	1,25	0,75
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 2,5	1,33	55,73	3,04	-19,46	58,33	58,33	50	56,25	3,17	3,12	2,75	3,12
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 2,5 local	1,83	34,38	1,86	-20,26	33,33	29,17	37,5	37,5	1,83	1,85	1,75	2
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	handicap -0,5 local	1,3	49,48	0,95	-27,44	54,17	50	50	43,75	1	0,79	1,25	0,75
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	mas 1,5 local	1,25	51,56	1,86	-28,44	58,33	54,17	50	43,75	1,83	1,85	1,75	2
+china	15-sep	11:35	Shanghai Port	Changchun Yatai	handicap -1,5 local	1,75	24,48	0,95	-32,66	16,67	25	25	31,25	1	0,79	1,25	0,75
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	handicap +0,5 local	1,15	81,46	0,96	-5,5	84	73,08	100	68,75	1,23	0,61	1,75	0,25
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 0,5 local	5	31,96	1,23	11,96	24	28,85	37,5	37,5	1,56	1,29	1,25	0,81
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	handicap +1,5 visitante	1,425	80,9	0,96	10,72	76	78,85	75	93,75	1,23	0,61	1,75	0,25
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 1,5 local	1,83	64,8	1,23	10,16	52	63,46	62,5	81,25	1,56	1,29	1,25	0,81
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 1,5	3,25	40,77	1,99	10	28	28,85	62,5	43,75	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 2,5 local	1,25	88,03	1,23	8,03	80	84,62	87,5	100	1,56	1,29	1,25	0,81
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 3,5	1,25	86,03	1,99	6,03	72	84,62	87,5	100	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 2,5	1,75	62,36	1,99	5,22	48	57,69	75	68,75	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	ambos no marcan	1,75	59,88	1,99	2,74	40	55,77	75	68,75	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 0,5 visitante	2,1	49,34	0,76	1,72	32	40,38	75	50	0,96	0,96	0,25	0,88
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	handicap -0,5 visitante	5,5	18,54	0,96	0,36	16	26,92	0	31,25	1,23	0,61	1,75	0,25
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 2,5 visitante	15	5	0,76	-1,67	8	5,77	0	6,25	0,96	0,96	0,25	0,88
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 4,5	1,083	90,47	1,99	-1,87	84	90,38	87,5	100	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 2,5 visitante	1,03	95	0,76	-2,09	92	94,23	100	93,75	0,96	0,96	0,25	0,88
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	menos 1,5 visitante	1,2	80,97	0,76	-2,36	84	71,15	100	68,75	0,96	0,96	0,25	0,88
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 4,5	8	9,53	1,99	-2,97	16	9,62	12,5	0	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 1,5 visitante	4,33	19,03	0,76	-4,06	16	28,85	0	31,25	0,96	0,96	0,25	0,88
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	no empate	1,28	73,09	0,96	-5,03	76	78,85	62,5	75	1,23	0,61	1,75	0,25
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	handicap -0,5 local	1,65	54,54	0,96	-6,07	60	51,92	62,5	43,75	1,23	0,61	1,75	0,25
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 0,5 visitante	1,66	50,66	0,76	-9,58	68	59,62	25	50	0,96	0,96	0,25	0,88
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	ambos marcan	2	40,12	1,99	-9,88	60	44,23	25	31,25	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 2,5	2,05	37,64	1,99	-11,14	52	42,31	25	31,25	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	handicap +0,5 visitante	2,2	45,46	0,96	0,01	40	48,08	37,5	56,25	1,23	0,61	1,75	0,25
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 3,5	3,75	13,97	1,99	-12,7	28	15,38	12,5	0	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 2,5 local	3,75	11,97	1,23	-14,7	20	15,38	12,5	0	1,56	1,29	1,25	0,81
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 1,5	1,33	59,23	1,99	-15,96	72	71,15	37,5	56,25	2,52	2,25	1,5	1,69
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	handicap -1,5 local	2,75	19,1	0,96	-17,26	24	21,15	25	6,25	1,23	0,61	1,75	0,25
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 0,5 local	1,16	68,04	1,23	-18,17	76	71,15	62,5	62,5	1,56	1,29	1,25	0,81
+japon	15-sep	10:30	Urawa RD	Kyoto Sanga	mas 1,5 local	1,83	35,2	1,23	-19,44	48	36,54	37,5	18,75	1,56	1,29	1,25	0,81
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 1,5 local	2,75	51,89	2,08	15,53	50	63,83	37,5	56,25	1,91	1,74	2,62	2,06
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 1,5 visitante	3,25	41,04	1,18	10,27	36,36	34,04	50	43,75	1,23	1,17	1,12	1,19
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	handicap -0,5 visitante	5,5	28,22	0,73	10,04	22,73	27,66	25	37,5	0,57	0,36	1,5	0,5
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	handicap +0,5 local	1,15	71,78	0,73	-15,18	77,27	72,34	75	62,5	0,57	0,36	1,5	0,5
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	ambos marcan	1,61	67,41	3,26	5,3	68,18	70,21	62,5	68,75	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 3,5	1,66	65,35	3,26	5,11	68,18	74,47	50	68,75	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	handicap +1,5 visitante	1,7	62,33	0,73	3,51	72,73	76,6	37,5	62,5	0,57	0,36	1,5	0,5
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 0,5 visitante	1,44	72,84	1,18	3,4	77,27	76,6	62,5	75	1,23	1,17	1,12	1,19
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 2,5 visitante	1,062	96,13	1,18	1,97	90,91	93,62	100	100	1,23	1,17	1,12	1,19
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 4,5	1,28	79,12	3,26	1	77,27	82,98	75	81,25	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 1,5	6	17,15	3,26	0,48	18,18	19,15	12,5	18,75	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 2,5	1,44	69,23	3,26	-0,21	59,09	55,32	87,5	75	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 2,5 local	1,61	60,66	2,08	-1,45	68,18	74,47	37,5	62,5	1,91	1,74	2,62	2,06
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 0,5 local	1,071	91,23	2,08	-2,14	81,82	89,36	100	93,75	1,91	1,74	2,62	2,06
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 0,5 local	9	8,77	2,08	-2,34	18,18	10,64	0	6,25	1,91	1,74	2,62	2,06
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	no empate	1,16	83,03	0,73	-3,18	68,18	70,21	100	93,75	0,57	0,36	1,5	0,5
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 2,5 local	2,2	39,34	2,08	-6,11	31,82	25,53	62,5	37,5	1,91	1,74	2,62	2,06
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 2,5 visitante	10	3,87	1,18	-6,13	9,09	6,38	0	0	1,23	1,17	1,12	1,19
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 2,5	2,7	30,77	3,26	-6,27	40,91	44,68	12,5	25	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 1,5	1,12	82,85	3,26	-6,44	81,82	80,85	87,5	81,25	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 4,5	3,5	20,88	3,26	-7,69	22,73	17,02	25	18,75	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	handicap -1,5 local	2,1	37,67	0,73	-9,95	27,27	23,4	62,5	37,5	0,57	0,36	1,5	0,5
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 0,5 visitante	2,62	27,16	1,18	-11,01	22,73	23,4	37,5	25	1,23	1,17	1,12	1,19
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	ambos no marcan	2,2	32,59	3,26	-12,86	31,82	29,79	37,5	31,25	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 3,5	2,1	34,65	3,26	-12,97	31,82	25,53	50	31,25	3,14	2,91	3,75	3,25
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	handicap -0,5 local	1,45	54,81	0,73	-14,16	45,45	42,55	75	56,25	0,57	0,36	1,5	0,5
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	handicap +0,5 visitante	2,675	45,19	0,73	7,81	54,55	57,45	25	43,75	0,57	0,36	1,5	0,5
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	menos 1,5 visitante	1,33	58,96	1,18	-16,23	63,64	65,96	50	56,25	1,23	1,17	1,12	1,19
+china	15-sep	11:35	Wuhan Three T,	Cangzhou	mas 1,5 local	1,4	48,11	2,08	-23,32	50	36,17	62,5	43,75	1,91	1,74	2,62	2,06
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 2,5 local	1,72	86,82	1,6	28,68	83,33	82,69	87,5	93,75	1,75	1,58	1,62	1,44
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	handicap +1,5 visitante	1,7	83,73	0,98	24,91	79,17	80,77	87,5	87,5	1,17	0,73	1,25	0,76
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 3,5	1,83	76,08	2,91	21,44	75	73,08	75	81,25	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 1,5 local	3,25	46,8	1,6	16,03	45,83	53,85	37,5	50	1,75	1,58	1,62	1,44
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	handicap +0,5 local	1,15	75,56	0,98	-11,4	79,17	73,08	75	75	1,17	0,73	1,25	0,76
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 0,5 local	10	19,91	1,6	9,91	16,67	19,23	25	18,75	1,75	1,58	1,62	1,44
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 0,5 visitante	1,36	83,29	1,31	9,76	75	76,92	100	81,25	1,21	1,23	1,62	1,19
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 2,5	3,1	41,14	2,91	8,88	45,83	50	25	43,75	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 1,5 visitante	1,4	77,72	1,31	6,29	79,17	69,23	87,5	75	1,21	1,23	1,62	1,19
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	handicap -0,5 visitante	5,5	24,44	0,98	6,26	20,83	26,92	25	25	1,17	0,73	1,25	0,76
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 4,5	1,36	79,57	2,91	6,04	75	80,77	75	87,5	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 1,5	7	16,79	2,91	2,5	16,67	19,23	12,5	18,75	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	ambos marcan	1,5	66,95	2,91	0,28	62,5	61,54	75	68,75	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 2,5 visitante	1,1	90,27	1,31	-0,64	87,5	92,31	87,5	93,75	1,21	1,23	1,62	1,19
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 2,5 visitante	7	9,73	1,31	-4,56	12,5	7,69	12,5	6,25	1,21	1,23	1,62	1,19
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	no empate	1,16	79,65	0,98	-6,56	79,17	76,92	87,5	75	1,17	0,73	1,25	0,76
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	ambos no marcan	2,5	33,05	2,91	-6,95	37,5	38,46	25	31,25	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 1,5	1,1	83,21	2,91	-7,7	83,33	80,77	87,5	81,25	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 4,5	3	20,43	2,91	-12,9	25	19,23	25	12,5	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	handicap -0,5 local	1,45	55,21	0,98	-13,76	58,33	50	62,5	50	1,17	0,73	1,25	0,76
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 0,5 local	1,062	80,09	1,6	-14,07	83,33	80,77	75	81,25	1,75	1,58	1,62	1,44
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 1,5 visitante	2,75	22,28	1,31	-14,08	20,83	30,77	12,5	25	1,21	1,23	1,62	1,19
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 2,5	1,36	58,86	2,91	-14,67	54,17	50	75	56,25	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	handicap +0,5 visitante	2,675	44,79	0,98	7,41	41,67	50	37,5	50	1,17	0,73	1,25	0,76
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	menos 0,5 visitante	3	16,71	1,31	-16,62	25	23,08	0	18,75	1,21	1,23	1,62	1,19
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 1,5 local	1,33	53,2	1,6	-21,99	54,17	46,15	62,5	50	1,75	1,58	1,62	1,44
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 3,5	1,83	23,92	2,91	-30,72	25	26,92	25	18,75	2,96	2,81	3,25	2,62
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	handicap -1,5 local	2,1	16,27	0,98	-31,35	20,83	19,23	12,5	12,5	1,17	0,73	1,25	0,76
+japon	15-sep	10:00	Yokohama M,	Sagan Tosu	mas 2,5 local	2	13,18	1,6	-36,82	16,67	17,31	12,5	6,25	1,75	1,58	1,62	1,44
