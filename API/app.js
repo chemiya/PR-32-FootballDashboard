@@ -3,25 +3,76 @@ const app = express();
 const Procesamiento = require('./Procesamiento');
 const port = 3000;
 var apuestas=[]
-var ligas=[]
+var apuestas_seleccionadas=[]
 var partidos=[]
+var estadisticas_local;
+var estadisticas_visitante;
 
 app.use(express.json());
 
 
-app.get('/arrancar', (req, res) => {
-  apuestas=Procesamiento.procesarApuestas()
+app.get('/buscarApuestas', (req, res) => {
+  
+
+
+  Procesamiento.procesarApuestas('./fichero-apuestas/apuestas.txt', (err, resultado) => {
+    if (err) {
+      console.error('Error:', err);
+      return;
+    }
+    
+    apuestas= resultado[0];
+    partidos=resultado[1]
+
+    res.json(partidos)
+
+  });
+
+  
   
 });
 
 
 
 
+app.get('/seleccionarPartido/:id', (req, res) => {
+  const id=req.params.id
+  
+  
+  var partido=partidos[id]
 
-app.get('/mostrarPartidosLiga/:liga', (req, res) => {
-  const liga = parseInt(req.params.liga);
- 
+  var nombres=partido.split("-")
+  
+  Procesamiento.procesarEstadisticas('./fichero-apuestas/datos.txt',nombres[0],nombres[1], (err, resultado) => {
+    if (err) {
+      console.error('Error:', err);
+      return;
+    }
+    
+    estadisticas=resultado
+    
+    
+  //estadisticas_local=estadisticas[0]
+  //estadisticas_visitante=estadisticas[1]
+
+  });
+
+
+
+
+  
+
+  apuestas_seleccionadas=apuestas.filter(apuesta=>apuesta.nombre_local==nombres[0])
+  res.json(apuestas_seleccionadas)
+
+
+  
+  
 });
+
+
+
+
 
 
 
