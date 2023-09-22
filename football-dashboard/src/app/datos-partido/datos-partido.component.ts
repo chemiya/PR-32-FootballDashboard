@@ -13,7 +13,7 @@ Chart.register(ChartDataLabels);
   styleUrls: ['./datos-partido.component.css']
 })
 export class DatosPartidoComponent {
-  datosPartido: any[] = []
+  
   chartGoles: any
   chartHandicap:any
   chartGolesLocal:any
@@ -30,7 +30,7 @@ export class DatosPartidoComponent {
   array_porcentajes_handicap_mas: number[] = [0, 0, 0, 0, 0]
   array_porcentajes_handicap_menos: number[] = [0, 0, 0, 0, 0]
   
-  array_porcentajes_mas15: number[] = [0, 0, 0, 0, 0]
+  array_porcentajes_mas15: number[] = [0, 0, 0, 0, 0,0,0]
   array_porcentajes_menos15: number[] = [0, 0, 0, 0, 0]
   array_porcentajes_mas25: number[] = [0, 0, 0, 0, 0]
   array_porcentajes_menos25: number[] = [0, 0, 0, 0, 0]
@@ -64,6 +64,20 @@ export class DatosPartidoComponent {
   array_porcentajes_menos25_local: number[] = [0, 0, 0, 0, 0]
   array_porcentajes_mas25_visitante: number[] = [0, 0, 0, 0, 0]
   array_porcentajes_menos25_visitante: number[] = [0, 0, 0, 0, 0]
+  datosPartido:any;
+  estadisticas_local:any;
+  estadisticas_visitante:any
+  clasificaciones:any;
+  partidos_local_del_local:any;
+  partidos_visitante_del_visitante:any
+  partidos_total_del_local:any;
+  partidos_total_del_visitante:any
+  partidos_ultimos_8_local:any;
+  partidos_ultimos_8_visitante:any;
+  partidos_ultimos_4_local:any;
+  partidos_ultimos_4_visitante:any;
+  nombreLocal:any
+  nombreVisitante:any
   constructor(private route: ActivatedRoute, private conexionAPI: ConexionApiService) { }
 
   ngOnInit() {
@@ -77,7 +91,22 @@ export class DatosPartidoComponent {
         next: (data) => {
 
           this.datosPartido = data
-          console.log(this.datosPartido)
+          this.estadisticas_local=this.datosPartido["estadisticas_local"]
+          this.estadisticas_visitante=this.datosPartido["estadisticas_visitante"]
+          this.clasificaciones=this.datosPartido["clasificaciones"]
+          this.datosPartido =this.datosPartido["apuestas_seleccionadas"]
+
+          this.partidos_local_del_local=(this.estadisticas_local["partidosLocal"])
+          this.partidos_visitante_del_visitante=(this.estadisticas_visitante["partidosVisitante"])
+          this.partidos_total_del_local=(this.estadisticas_local["partidosTotal"])
+          this.partidos_total_del_visitante=(this.estadisticas_visitante["partidosTotal"])
+          this.partidos_ultimos_4_visitante=(this.estadisticas_visitante["partidosUltimos4Visitante"])
+          this.partidos_ultimos_4_local=(this.estadisticas_local["partidosUltimos4Local"])
+          this.partidos_ultimos_8_visitante=(this.estadisticas_visitante["partidosUltimos8Total"])
+          this.partidos_ultimos_8_local=(this.estadisticas_local["partidosUltimos8Total"])
+          this.nombreLocal=this.estadisticas_local["nombre"]
+          this.nombreVisitante=this.estadisticas_visitante["nombre"]
+          
 
           for (var i = 0; i < this.datosPartido.length; i++) {
             if (this.datosPartido[i].mercado == "mas 1,5") {
@@ -86,6 +115,8 @@ export class DatosPartidoComponent {
               this.array_porcentajes_mas15[2] = parseFloat(this.datosPartido[i].porcentaje_mercado_en_ultimos_4_sitio.replace(',', '.'))
               this.array_porcentajes_mas15[3] = parseFloat(this.datosPartido[i].porcentaje_mercado_en_ultimos_8_general.replace(',', '.'))
               this.array_porcentajes_mas15[4] = parseFloat(this.datosPartido[i].porcentaje_mercado_media.replace(',', '.'))
+              this.array_porcentajes_mas15[5] = parseFloat(this.datosPartido[i].cuota_favor.replace(',', '.'))
+              this.array_porcentajes_mas15[6] = parseFloat(this.datosPartido[i].valor.replace(',', '.'))
 
 
             }
@@ -369,7 +400,7 @@ export class DatosPartidoComponent {
     this.chartHandicap = new Chart("graficoHandicap", {
       type: 'bar',
       data: {
-        labels: ['Ha +1,5 local y ha -1,5 visitante', 'Ha +0,5 local y ha -0,5 visitante', 'Empate y no empate', 'Ha +0,5 visitante y ha -0,5 local', 'Ha +1,5 visitante y ha -1,5 local'],
+        labels: ['+1,5 local', '+0,5 local', 'Empate', '+0,5 visitante', '+1,5 visitante'],
         datasets: [{
           label: 'Mas',
           backgroundColor: 'rgba(75, 192, 192, 0.6)',
@@ -424,7 +455,7 @@ export class DatosPartidoComponent {
     this.chartGoles = new Chart("graficoGoles", {
       type: 'bar',
       data: {
-        labels: ['Mas/menos 1,5 goles', 'Mas/menos 2,5 goles', 'Mas/menos 3,5 goles', 'Mas/menos 4,5 goles', 'Ambos si/no marcan'],
+        labels: ['1,5 goles', '2,5 goles', '3,5 goles', '4,5 goles', 'Ambos marcan'],
         datasets: [{
           label: 'Mas',
           backgroundColor: 'rgba(75, 192, 192, 0.6)',
@@ -475,7 +506,7 @@ export class DatosPartidoComponent {
     this.chartGolesLocal = new Chart("graficoGolesLocal", {
       type: 'bar',
       data: {
-        labels: ['Mas/menos 0,5 goles', 'Mas/menos 1,5 goles', 'Mas/menos 2,5 goles'],
+        labels: ['0,5 goles', '1,5 goles', '2,5 goles'],
         datasets: [{
           label: 'Mas',
           backgroundColor: 'rgba(75, 192, 192, 0.6)',
@@ -525,7 +556,7 @@ export class DatosPartidoComponent {
     this.chartGolesVisitante = new Chart("graficoGolesVisitante", {
       type: 'bar',
       data: {
-        labels: ['Mas/menos 0,5 goles', 'Mas/menos 1,5 goles', 'Mas/menos 2,5 goles'],
+        labels: ['0,5 goles', '1,5 goles', '2,5 goles'],
         datasets: [{
           label: 'Mas',
           backgroundColor: 'rgba(75, 192, 192, 0.6)',

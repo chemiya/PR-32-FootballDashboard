@@ -1,19 +1,49 @@
-
+<div class="row">
+  <div class="col">
+    <h1 class="text-center">{{nombreLocal}}-{{nombreVisitante}}</h1>
+  </div>
+</div>
+  
+  
+  
+  
+  
   <div class="row">
     <div class="col-6">
+      <h1 class="text-center">Ganador</h1>
       <div class="chart-container">
         <canvas id="graficoHandicap" ></canvas>
       </div>
     </div>
 
     <div class="col-6">
+      <h1 class="text-center">Goles</h1>
       <div class="chart-container">
         <canvas id="graficoGoles" ></canvas>
       </div>
     </div>
   </div>
 
-  <div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="row p-4">
     <div class="col-6">
       <div class="table-container">
         <table class="table">
@@ -25,6 +55,8 @@
               <th scope="col">Porcentaje en ultimos 4 sitio</th>
               <th scope="col">Porcentaje en ultimos 8 general</th>
               <th scope="col">Porcentaje media</th>
+              <th scope="col">Valor</th>
+              <th scope="col">Cuota</th>
               
             </tr>
           </thead>
@@ -123,7 +155,11 @@
         </div>
     </div>
 
-    <div class="col-6">
+
+
+
+
+    <div class="col-6 ">
       <div class="table-container">
         <table class="table">
           <thead>
@@ -134,6 +170,8 @@
               <th scope="col">Porcentaje en ultimos 4 sitio</th>
               <th scope="col">Porcentaje en ultimos 8 general</th>
               <th scope="col">Porcentaje media</th>
+              <th scope="col">Valor</th>
+              <th scope="col">Cuota</th>
               
             </tr>
           </thead>
@@ -145,6 +183,8 @@
               <td>{{array_porcentajes_mas15[2]}}</td>
               <td>{{array_porcentajes_mas15[3]}}</td>
               <td>{{array_porcentajes_mas15[4]}}</td>
+              <td>{{array_porcentajes_mas15[5]}}</td>
+              <td>{{array_porcentajes_mas15[6]}}</td>
               
             </tr>
             <tr>
@@ -237,15 +277,26 @@
 
 
 
+
+
+
+
+
+
+
+
+
   
   <div class="row">
     <div class="col-6">
+      <h1 class="text-center">Goles local</h1>
       <div class="chart-container">
         <canvas id="graficoGolesLocal" ></canvas>
       </div>
     </div>
 
     <div class="col-6">
+      <h1 class="text-center">Goles visitante</h1>
       <div class="chart-container">
         <canvas id="graficoGolesVisitante" ></canvas>
       </div>
@@ -331,11 +382,249 @@
   </div>
 
 
+  <div class="row">
+    <div class="col-4">
+      <div class="row">
+        <div class="col">
+          <p>Clasificaciones por proporciones de puntos</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex flex-column justify-content-center align-items-center">
+          <h2>Local</h2>
+          <p>{{clasificaciones.clasificacion_puntos_local}}. {{nombreLocal}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex flex-column justify-content-center align-items-center">
+          <h2>Visitante</h2>
+          <p>{{clasificaciones.clasificacion_puntos_visitante}}. {{nombreVisitante}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="row">
+            <div class="col">
+              <h2 class="text-center">Total</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p class="text-center">{{clasificaciones.clasificacion_puntos_total[0]}}. {{nombreLocal}}</p>
+          </div>
+          <div class="col-6">
+            <p class="text-center">{{clasificaciones.clasificacion_puntos_total[1]}}. {{nombreVisitante}}</p>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+  </div>
 
 
 
 
 
+
+
+
+<div class="row">
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Partidos del local como local</h1>
+      </div>
+    </div>
+
+    <div class="row" *ngFor="let partido of partidos_local_del_local">
+      <div class="col d-flex justify-content-center">
+        <p>{{partido.nombre_local}}</p>
+        <p>{{partido.resultado_local}}</p>
+        <p>-</p>
+        <p>{{partido.resultado_visitante}}</p>
+        <p>{{partido.nombre_visitante}}</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Partidos del visitante como visitante</h1>
+      </div>
+    </div>
+
+    <div class="row" *ngFor="let partido of partidos_visitante_del_visitante">
+      <div class="col d-flex justify-content-center">
+        <p>{{partido.nombre_local}}</p>
+        <p>{{partido.resultado_local}}</p>
+        <p>-</p>
+        <p>{{partido.resultado_visitante}}</p>
+        <p>{{partido.nombre_visitante}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<div class="row">
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Todos los partidos del local</h1>
+      </div>
+    </div>
+
+    <div class="row" *ngFor="let partido of partidos_total_del_local">
+      <div class="col d-flex justify-content-center">
+        <p>{{partido.nombre_local}}</p>
+        <p>{{partido.resultado_local}}</p>
+        <p>-</p>
+        <p>{{partido.resultado_visitante}}</p>
+        <p>{{partido.nombre_visitante}}</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Todos los partidos del visitante</h1>
+      </div>
+    </div>
+
+    <div class="row" *ngFor="let partido of partidos_total_del_visitante">
+      <div class="col d-flex justify-content-center">
+        <p>{{partido.nombre_local}}</p>
+        <p>{{partido.resultado_local}}</p>
+        <p>-</p>
+        <p>{{partido.resultado_visitante}}</p>
+        <p>{{partido.nombre_visitante}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Ultimos 4 partidos del local como local</h1>
+      </div>
+    </div>
+
+    <div class="row" *ngFor="let partido of partidos_ultimos_4_local">
+      <div class="col d-flex justify-content-center">
+        <p>{{partido.nombre_local}}</p>
+        <p>{{partido.resultado_local}}</p>
+        <p>-</p>
+        <p>{{partido.resultado_visitante}}</p>
+        <p>{{partido.nombre_visitante}}</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Ultimos 4 partidos del visitante como visitante</h1>
+      </div>
+    </div>
+
+    <div class="row" *ngFor="let partido of partidos_ultimos_4_visitante">
+      <div class="col d-flex justify-content-center">
+        <p>{{partido.nombre_local}}</p>
+        <p>{{partido.resultado_local}}</p>
+        <p>-</p>
+        <p>{{partido.resultado_visitante}}</p>
+        <p>{{partido.nombre_visitante}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Ultimos 8 partidos del local</h1>
+      </div>
+    </div>
+
+    <div class="row" *ngFor="let partido of partidos_ultimos_8_local">
+      <div class="col d-flex justify-content-center">
+        <p>{{partido.nombre_local}}</p>
+        <p>{{partido.resultado_local}}</p>
+        <p>-</p>
+        <p>{{partido.resultado_visitante}}</p>
+        <p>{{partido.nombre_visitante}}</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Ultimos 8 partidos del visitante</h1>
+      </div>
+    </div>
+
+    <div class="row" *ngFor="let partido of partidos_ultimos_8_visitante">
+      <div class="col d-flex justify-content-center">
+        <p>{{partido.nombre_local}}</p>
+        <p>{{partido.resultado_local}}</p>
+        <p>-</p>
+        <p>{{partido.resultado_visitante}}</p>
+        <p>{{partido.nombre_visitante}}</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
  

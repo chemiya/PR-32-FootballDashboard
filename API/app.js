@@ -9,6 +9,7 @@ var apuestas_seleccionadas=[]
 var partidos=[]
 var estadisticas_local;
 var estadisticas_visitante;
+var clasificaciones;
 
 app.use(express.json());
 
@@ -41,13 +42,26 @@ app.get('/seleccionarPartido/:id', (req, res) => {
       console.error('Error:', err);
       return;
     }
-    estadisticas=resultado
-  //estadisticas_local=estadisticas[0]
-  //estadisticas_visitante=estadisticas[1]
+  estadisticas=resultado
+  estadisticas_local=estadisticas[0]
+  estadisticas_visitante=estadisticas[1]
+  clasificaciones=estadisticas[2]
+  //console.log(estadisticas_local)
+  //console.log(estadisticas_visitante)
+ 
+  apuestas_seleccionadas=apuestas.filter(apuesta=>apuesta.nombre_local==nombres[0])
+  var respuestaJSON={
+    apuestas_seleccionadas:apuestas_seleccionadas,
+    estadisticas_local:estadisticas_local,
+    estadisticas_visitante:estadisticas_visitante,
+    clasificaciones:clasificaciones
+  }
+  res.json(respuestaJSON)
 
   });
-  apuestas_seleccionadas=apuestas.filter(apuesta=>apuesta.nombre_local==nombres[0])
-  res.json(apuestas_seleccionadas)
+
+
+
 
 
   
