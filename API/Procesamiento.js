@@ -60,21 +60,21 @@ function procesarApuestas(rutaArchivo, callback) {
   }
   
   function procesarDatosEstadisticas(data,nombre_local,nombre_visitante) {
-    var separados=data.split("InicioEquipo")
     var datos_equipo=[]
+    var limpios=data.split("\n")
+    var indices_inicios=[]
     
-    for (i=0;i<separados.length;i++){
-      var separados_interior=separados[i].split("\n")
-      console.log(separados_interior)
-      //console.log(nombre_local+"  "+nombre_visitante+"  "+separados_interior[1])
-      if(separados_interior[1]===nombre_local || separados_interior[1]===nombre_visitante){
-        datos_equipo.push(separados[i])
-        
-        
+    for(i=0;i<limpios.length;i++){
+      var linea=limpios[i]
+      if(linea.indexOf("InicioEquipo") !== -1){
+        indices_inicios.push(i)
       }
+      
     }
 
-
+    
+    console.log(indices_inicios)
+    
     
     return datos_equipo;
   }

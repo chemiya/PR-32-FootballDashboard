@@ -1,0 +1,16 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h1>Selecciona partido para ver sus datos</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <select [(ngModel)]="partidoSeleccionado">
+                <option *ngFor="let partido of partidos; let i = index" [value]="i">{{ partido }}</option>
+              </select>
+              <button (click)="cargarDatosPartido()">Ver</button>
+        </div>
+    </div>
+</div>

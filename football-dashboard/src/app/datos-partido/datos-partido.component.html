@@ -1,0 +1,348 @@
+
+  <div class="row">
+    <div class="col-6">
+      <div class="chart-container">
+        <canvas id="graficoHandicap" ></canvas>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="chart-container">
+        <canvas id="graficoGoles" ></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <div class="table-container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Apuesta</th>
+              <th scope="col">Porcentaje en sitio</th>
+              <th scope="col">Porcentaje en general</th>
+              <th scope="col">Porcentaje en ultimos 4 sitio</th>
+              <th scope="col">Porcentaje en ultimos 8 general</th>
+              <th scope="col">Porcentaje media</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Handicap +1,5 local</th>
+              <td>{{array_porcentajes_handicap_mas15_local[0]}}</td>
+              <td>{{array_porcentajes_handicap_mas15_local[1]}}</td>
+              <td>{{array_porcentajes_handicap_mas15_local[2]}}</td>
+              <td>{{array_porcentajes_handicap_mas15_local[3]}}</td>
+              <td>{{array_porcentajes_handicap_mas15_local[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Handicap -1,5 visitante</th>
+              <td>{{array_porcentajes_handicap_menos15_visitante[0]}}</td>
+              <td>{{array_porcentajes_handicap_menos15_visitante[1]}}</td>
+              <td>{{array_porcentajes_handicap_menos15_visitante[2]}}</td>
+              <td>{{array_porcentajes_handicap_menos15_visitante[3]}}</td>
+              <td>{{array_porcentajes_handicap_menos15_visitante[4]}}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Handicap +0,5 local</th>
+              <td>{{array_porcentajes_handicap_mas05_local[0]}}</td>
+              <td>{{array_porcentajes_handicap_mas05_local[1]}}</td>
+              <td>{{array_porcentajes_handicap_mas05_local[2]}}</td>
+              <td>{{array_porcentajes_handicap_mas05_local[3]}}</td>
+              <td>{{array_porcentajes_handicap_mas05_local[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Handicap -0,5 visitante</th>
+              <td>{{array_porcentajes_handicap_menos05_visitante[0]}}</td>
+              <td>{{array_porcentajes_handicap_menos05_visitante[1]}}</td>
+              <td>{{array_porcentajes_handicap_menos05_visitante[2]}}</td>
+              <td>{{array_porcentajes_handicap_menos05_visitante[3]}}</td>
+              <td>{{array_porcentajes_handicap_menos05_visitante[4]}}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Empate</th>
+              <td>{{array_porcentajes_empate[0]}}</td>
+              <td>{{array_porcentajes_empate[1]}}</td>
+              <td>{{array_porcentajes_empate[2]}}</td>
+              <td>{{array_porcentajes_empate[3]}}</td>
+              <td>{{array_porcentajes_empate[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">No empate</th>
+              <td>{{array_porcentajes_no_empate[0]}}</td>
+              <td>{{array_porcentajes_no_empate[1]}}</td>
+              <td>{{array_porcentajes_no_empate[2]}}</td>
+              <td>{{array_porcentajes_no_empate[3]}}</td>
+              <td>{{array_porcentajes_no_empate[4]}}</td>
+            </tr>
+            <tr>
+              <th scope="row">Handicap +0,5 visitante</th>
+              <td>{{array_porcentajes_handicap_mas05_visitante[0]}}</td>
+              <td>{{array_porcentajes_handicap_mas05_visitante[1]}}</td>
+              <td>{{array_porcentajes_handicap_mas05_visitante[2]}}</td>
+              <td>{{array_porcentajes_handicap_mas05_visitante[3]}}</td>
+              <td>{{array_porcentajes_handicap_mas05_visitante[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Handicap -0,5 local</th>
+              <td>{{array_porcentajes_handicap_menos05_local[0]}}</td>
+              <td>{{array_porcentajes_handicap_menos05_local[1]}}</td>
+              <td>{{array_porcentajes_handicap_menos05_local[2]}}</td>
+              <td>{{array_porcentajes_handicap_menos05_local[3]}}</td>
+              <td>{{array_porcentajes_handicap_menos05_local[4]}}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Handicap +1,5 visitante</th>
+              <td>{{array_porcentajes_handicap_mas15_visitante[0]}}</td>
+              <td>{{array_porcentajes_handicap_mas15_visitante[1]}}</td>
+              <td>{{array_porcentajes_handicap_mas15_visitante[2]}}</td>
+              <td>{{array_porcentajes_handicap_mas15_visitante[3]}}</td>
+              <td>{{array_porcentajes_handicap_mas15_visitante[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Handicap -1,5 local</th>
+              <td>{{array_porcentajes_handicap_menos15_local[0]}}</td>
+              <td>{{array_porcentajes_handicap_menos15_local[1]}}</td>
+              <td>{{array_porcentajes_handicap_menos15_local[2]}}</td>
+              <td>{{array_porcentajes_handicap_menos15_local[3]}}</td>
+              <td>{{array_porcentajes_handicap_menos15_local[4]}}</td>
+            </tr>
+
+          </tbody>
+        </table>
+        </div>
+    </div>
+
+    <div class="col-6">
+      <div class="table-container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Apuesta</th>
+              <th scope="col">Porcentaje en sitio</th>
+              <th scope="col">Porcentaje en general</th>
+              <th scope="col">Porcentaje en ultimos 4 sitio</th>
+              <th scope="col">Porcentaje en ultimos 8 general</th>
+              <th scope="col">Porcentaje media</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Mas 1,5 goles</th>
+              <td>{{array_porcentajes_mas15[0]}}</td>
+              <td>{{array_porcentajes_mas15[1]}}</td>
+              <td>{{array_porcentajes_mas15[2]}}</td>
+              <td>{{array_porcentajes_mas15[3]}}</td>
+              <td>{{array_porcentajes_mas15[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Menos 1,5 goles</th>
+              <td>{{array_porcentajes_menos15[0]}}</td>
+              <td>{{array_porcentajes_menos15[1]}}</td>
+              <td>{{array_porcentajes_menos15[2]}}</td>
+              <td>{{array_porcentajes_menos15[3]}}</td>
+              <td>{{array_porcentajes_menos15[4]}}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Mas 2,5 goles</th>
+              <td>{{array_porcentajes_mas25[0]}}</td>
+              <td>{{array_porcentajes_mas25[1]}}</td>
+              <td>{{array_porcentajes_mas25[2]}}</td>
+              <td>{{array_porcentajes_mas25[3]}}</td>
+              <td>{{array_porcentajes_mas25[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Menos 2,5 goles</th>
+              <td>{{array_porcentajes_menos25[0]}}</td>
+              <td>{{array_porcentajes_menos25[1]}}</td>
+              <td>{{array_porcentajes_menos25[2]}}</td>
+              <td>{{array_porcentajes_menos25[3]}}</td>
+              <td>{{array_porcentajes_menos25[4]}}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Mas 3,5 goles</th>
+              <td>{{array_porcentajes_mas35[0]}}</td>
+              <td>{{array_porcentajes_mas35[1]}}</td>
+              <td>{{array_porcentajes_mas35[2]}}</td>
+              <td>{{array_porcentajes_mas35[3]}}</td>
+              <td>{{array_porcentajes_mas35[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Menos 3,5 goles</th>
+              <td>{{array_porcentajes_menos35[0]}}</td>
+              <td>{{array_porcentajes_menos35[1]}}</td>
+              <td>{{array_porcentajes_menos35[2]}}</td>
+              <td>{{array_porcentajes_menos35[3]}}</td>
+              <td>{{array_porcentajes_menos35[4]}}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Mas 4,5 goles</th>
+              <td>{{array_porcentajes_mas45[0]}}</td>
+              <td>{{array_porcentajes_mas45[1]}}</td>
+              <td>{{array_porcentajes_mas45[2]}}</td>
+              <td>{{array_porcentajes_mas45[3]}}</td>
+              <td>{{array_porcentajes_mas45[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Menos 4,5 goles</th>
+              <td>{{array_porcentajes_menos45[0]}}</td>
+              <td>{{array_porcentajes_menos45[1]}}</td>
+              <td>{{array_porcentajes_menos45[2]}}</td>
+              <td>{{array_porcentajes_menos45[3]}}</td>
+              <td>{{array_porcentajes_menos45[4]}}</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Ambos marcan</th>
+              <td>{{array_porcentajes_ambos_marcan[0]}}</td>
+              <td>{{array_porcentajes_ambos_marcan[1]}}</td>
+              <td>{{array_porcentajes_ambos_marcan[2]}}</td>
+              <td>{{array_porcentajes_ambos_marcan[3]}}</td>
+              <td>{{array_porcentajes_ambos_marcan[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Ambos no marcan</th>
+              <td>{{array_porcentajes_ambos_no_marcan[0]}}</td>
+              <td>{{array_porcentajes_ambos_no_marcan[1]}}</td>
+              <td>{{array_porcentajes_ambos_no_marcan[2]}}</td>
+              <td>{{array_porcentajes_ambos_no_marcan[3]}}</td>
+              <td>{{array_porcentajes_ambos_no_marcan[4]}}</td>
+            </tr>
+            
+          </tbody>
+        </table>
+        </div>
+    </div>
+  </div>
+
+
+
+
+  
+  <div class="row">
+    <div class="col-6">
+      <div class="chart-container">
+        <canvas id="graficoGolesLocal" ></canvas>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="chart-container">
+        <canvas id="graficoGolesVisitante" ></canvas>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-6">
+      <div class="table-container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Apuesta</th>
+              <th scope="col">Porcentaje en sitio</th>
+              <th scope="col">Porcentaje en general</th>
+              <th scope="col">Porcentaje en ultimos 4 sitio</th>
+              <th scope="col">Porcentaje en ultimos 8 general</th>
+              <th scope="col">Porcentaje media</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Mas 1,5 goles</th>
+              <td>{{array_porcentajes_mas15[0]}}</td>
+              <td>{{array_porcentajes_mas15[1]}}</td>
+              <td>{{array_porcentajes_mas15[2]}}</td>
+              <td>{{array_porcentajes_mas15[3]}}</td>
+              <td>{{array_porcentajes_mas15[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Menos 1,5 goles</th>
+              <td>{{array_porcentajes_menos15[0]}}</td>
+              <td>{{array_porcentajes_menos15[1]}}</td>
+              <td>{{array_porcentajes_menos15[2]}}</td>
+              <td>{{array_porcentajes_menos15[3]}}</td>
+              <td>{{array_porcentajes_menos15[4]}}</td>
+            </tr>
+            <!-- Agrega más filas según sea necesario -->
+          </tbody>
+        </table>
+        </div>
+    </div>
+
+    <div class="col-6">
+      <div class="table-container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Apuesta</th>
+              <th scope="col">Porcentaje en sitio</th>
+              <th scope="col">Porcentaje en general</th>
+              <th scope="col">Porcentaje en ultimos 4 sitio</th>
+              <th scope="col">Porcentaje en ultimos 8 general</th>
+              <th scope="col">Porcentaje media</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Mas 1,5 goles</th>
+              <td>{{array_porcentajes_mas15[0]}}</td>
+              <td>{{array_porcentajes_mas15[1]}}</td>
+              <td>{{array_porcentajes_mas15[2]}}</td>
+              <td>{{array_porcentajes_mas15[3]}}</td>
+              <td>{{array_porcentajes_mas15[4]}}</td>
+              
+            </tr>
+            <tr>
+              <th scope="row">Menos 1,5 goles</th>
+              <td>{{array_porcentajes_menos15[0]}}</td>
+              <td>{{array_porcentajes_menos15[1]}}</td>
+              <td>{{array_porcentajes_menos15[2]}}</td>
+              <td>{{array_porcentajes_menos15[3]}}</td>
+              <td>{{array_porcentajes_menos15[4]}}</td>
+            </tr>
+            <!-- Agrega más filas según sea necesario -->
+          </tbody>
+        </table>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
