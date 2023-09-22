@@ -60,19 +60,37 @@ function procesarApuestas(rutaArchivo, callback) {
   }
   
   function procesarDatosEstadisticas(data,nombre_local,nombre_visitante) {
-    var separados=data.split("InicioEquipo")
+    var separados=data.split("InicioEquipo;")
     var datos_equipo=[]
     
     for (i=0;i<separados.length;i++){
-      var separados_interior=separados[i].split("\n")
-      console.log(separados_interior)
-      //console.log(nombre_local+"  "+nombre_visitante+"  "+separados_interior[1])
-      if(separados_interior[1]===nombre_local || separados_interior[1]===nombre_visitante){
-        datos_equipo.push(separados[i])
-        
-        
+      var datos_equipo_separados=separados[i].split(";")
+      for(k=0;k<datos_equipo_separados.length;k++){
+        if(datos_equipo_separados[k]=="partidos_local"){
+          console.log(k)
+        }
+        if(datos_equipo_separados[k]=="partidos_ultimos_4_local"){
+          console.log(k)
+        }
+        if(datos_equipo_separados[k]=="partidos_visitante"){
+          console.log(k)
+        }
+        if(datos_equipo_separados[k]=="partidos_ultimos_4_visitante"){
+          console.log(k)
+        }
+        if(datos_equipo_separados[k]=="partidos_8_ultimos_total"){
+          console.log(k)
+        }
+      
+        if(datos_equipo_separados[k]=="indicadores"){
+          console.log(k)
+        }
+        if(datos_equipo_separados[k]=="partidos_total"){
+          console.log(k)
+        }
       }
     }
+   
 
 
     
