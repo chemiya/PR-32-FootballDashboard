@@ -15,6 +15,10 @@ export class SeleccionPartidoComponent {
   ngOnInit(){
     this.obtenerPartidos();
   }
+
+
+
+
   obtenerPartidos(){
     this.conexionAPI.getPartidos()//busco todos
     .subscribe({
@@ -26,6 +30,10 @@ export class SeleccionPartidoComponent {
     });
   }
 
+
+
+
+  
   cargarDatosPartido(){
 
     this.router.navigate(['/datosPartido/'+this.partidoSeleccionado]);

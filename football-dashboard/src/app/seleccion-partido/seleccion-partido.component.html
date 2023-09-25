@@ -2,15 +2,19 @@
 <div class="container">
     <div class="row">
         <div class="col">
-            <h1>Selecciona partido para ver sus datos</h1>
+            <h1 class="text-center">Selecciona partido para ver sus datos</h1>
         </div>
     </div>
+
+
+
+    
     <div class="row">
-        <div class="col">
+        <div class="col d-flex justify-content-center align-items-center">
             <select [(ngModel)]="partidoSeleccionado">
                 <option *ngFor="let partido of partidos; let i = index" [value]="i">{{ partido }}</option>
               </select>
-              <button (click)="cargarDatosPartido()">Ver</button>
+              <button (click)="cargarDatosPartido()" class="btn btn-primary ms-2">Ver</button>
         </div>
     </div>
 </div>

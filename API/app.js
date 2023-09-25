@@ -7,6 +7,7 @@ app.use(cors())
 var apuestas=[]
 var apuestas_seleccionadas=[]
 var partidos=[]
+var paises=[]
 var estadisticas_local;
 var estadisticas_visitante;
 var clasificaciones;
@@ -23,6 +24,8 @@ app.get('/buscarPartidos', (req, res) => {
     }
     apuestas= resultado[0];
     partidos=resultado[1]
+    paises=resultado[2]
+    
     res.json(partidos)
   });
 
@@ -36,8 +39,10 @@ app.get('/buscarPartidos', (req, res) => {
 app.get('/seleccionarPartido/:id', (req, res) => {
   const id=req.params.id
   var partido=partidos[id]
+  var pais=paises[id]
   var nombres=partido.split("-")
-  Procesamiento.procesarEstadisticas('./fichero-apuestas/datos.txt',nombres[0],nombres[1], (err, resultado) => {
+  
+  Procesamiento.procesarEstadisticas('./fichero-apuestas/'+pais+".txt",nombres[0],nombres[1], (err, resultado) => {
     if (err) {
       console.error('Error:', err);
       return;

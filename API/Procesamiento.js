@@ -30,6 +30,7 @@ function procesarDatosApuestas(data) {
   const separadas_apuestas = data.split('\r\n');
   var apuestas = [];
   var partidos = [];
+  var paises=[]
 
   for (i = 0; i < separadas_apuestas.length; i++) {
     var separado = separadas_apuestas[i].split("\t")
@@ -38,12 +39,13 @@ function procesarDatosApuestas(data) {
     var nombre_partido = apuesta.nombre_local + "-" + apuesta.nombre_visitante
     if (!partidos.includes(nombre_partido) && !nombre_partido.includes("undefined") && !nombre_partido.includes("nombre local")) {
       partidos.push(nombre_partido)
+      paises.push(apuesta.pais)
     }
   }
 
 
 
-  return [apuestas, partidos];
+  return [apuestas, partidos,paises];
 }
 
 
@@ -65,9 +67,14 @@ function procesarEstadisticas(rutaArchivo, nombre_local, nombre_visitante, callb
 
 function procesarDatosEstadisticas(data, nombre_local, nombre_visitante) {
   var separados = data.split("InicioEquipo;")
-  var datos_equipo = []
+  var datos_equipo = [0,0]
   var limpios = data.split("\n")
   var clasificacion_equipos = []
+  nombre_local=nombre_local.replace(",",".")
+  nombre_visitante=nombre_visitante.replace(",",".")
+  
+
+
 
 
   for (i = 0; i < separados.length; i++) {
@@ -110,7 +117,7 @@ function procesarDatosEstadisticas(data, nombre_local, nombre_visitante) {
       }
 
       if (datos_equipo_separados[0] == nombre_local || datos_equipo_separados[0] == nombre_visitante) {
-        //console.log(indices)
+       
         var indicadores = datos_equipo_separados[indices[0] + 1].split("|")
         var partidos_local = []
         var partidos_visitante = []
@@ -145,10 +152,11 @@ function procesarDatosEstadisticas(data, nombre_local, nombre_visitante) {
 
 
         for (j = indices[5] + 1; j < indices[6]; j++) {
-          var partido_separado = datos_equipo_separados[i].split("|")
+          var partido_separado = datos_equipo_separados[j].split("|")
           var partido = new Partido(partido_separado[0], partido_separado[1], partido_separado[2], partido_separado[3])
           partidos_4_ultimos_visitante.push(partido)
         }
+        
 
         for (j = indices[6] + 1; j < datos_equipo_separados.length - 1; j++) {
           var partido_separado = datos_equipo_separados[j].split("|")
@@ -161,7 +169,14 @@ function procesarDatosEstadisticas(data, nombre_local, nombre_visitante) {
           indicadores[t] = parseFloat(indicadores[t])
         }
         var equipoDatos = new EquipoDatos(datos_equipo_separados[0], indicadores, partidos_local, partidos_visitante, partidos_total, partidos_4_ultimos_local, partidos_4_ultimos_visitante, partidos_8_ultimos_total)
-        datos_equipo.push(equipoDatos)
+        if(datos_equipo_separados[0]==nombre_local){
+          datos_equipo[0]=(equipoDatos)
+        }else{
+          datos_equipo[1]=(equipoDatos)
+        }
+        
+        
+        
         var equipoDatos = new Clasificacion(datos_equipo_separados[0], indicadores)
         clasificacion_equipos.push(equipoDatos)
 
@@ -182,11 +197,29 @@ function procesarDatosEstadisticas(data, nombre_local, nombre_visitante) {
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
   var clasificaciones_posiciones = new ClasificacionRecopilacion()
 
   for (g = 0; g < 12; g++) {
    
-    var ordenado = clasificacion_equipos.sort((a, b) => b.indicadores[g] - a.indicadores[g]);
+    var ordenado;
+    if(g<9){
+      ordenado = clasificacion_equipos.sort((a, b) => b.indicadores[g] - a.indicadores[g]);
+    }else{
+      ordenado = clasificacion_equipos.sort((a, b) =>a.indicadores[g]- b.indicadores[g] );
+    }
+    
     for (q = 0; q < ordenado.length; q++) {
       if(g==0){
         if (ordenado[q].nombre == nombre_local) {
@@ -269,6 +302,7 @@ function procesarDatosEstadisticas(data, nombre_local, nombre_visitante) {
     }
 
   }
+  console.log(clasificaciones_posiciones)
 
 datos_equipo.push(clasificaciones_posiciones)
 
