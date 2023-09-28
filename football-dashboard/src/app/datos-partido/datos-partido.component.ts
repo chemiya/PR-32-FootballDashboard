@@ -578,7 +578,7 @@ export class DatosPartidoComponent {
       data: {
         labels: ["Sitio","Total","Ultimos 4 sitio","Ultimos 8 total","Media"],
         datasets: [{
-          label: 'Ventas 2021',
+          label: 'Goles local',
           data: this.array_proporciones_goles_local,
           backgroundColor: 'rgba(75, 192, 192, 0.2)',
           borderColor: 'rgba(75, 192, 192, 1)',
@@ -586,7 +586,15 @@ export class DatosPartidoComponent {
         }]
       },
       options: {
-       
+        scales: {
+          y: {
+              beginAtZero: true, 
+              max: 2.5, 
+              ticks:{
+                stepSize:0.3
+              }
+          }
+      }
       }
     });
 
@@ -601,7 +609,7 @@ export class DatosPartidoComponent {
       data: {
         labels: ["Sitio","Total","Ultimos 4 sitio","Ultimos 8 total","Media"],
         datasets: [{
-          label: 'Ventas 2021',
+          label: 'Goles visitante',
           data: this.array_proporciones_goles_visitante,
           backgroundColor: 'rgba(75, 192, 192, 0.2)',
           borderColor: 'rgba(75, 192, 192, 1)',
@@ -609,7 +617,15 @@ export class DatosPartidoComponent {
         }]
       },
       options: {
-       
+        scales: {
+          y: {
+              beginAtZero: true, 
+              max: 2.5, 
+              ticks:{
+                stepSize:0.3
+              }
+          }
+      }
       }
     });
 
@@ -630,7 +646,7 @@ export class DatosPartidoComponent {
       data: {
         labels: ["Sitio","Total","Ultimos 4 sitio","Ultimos 8 total","Media"],
         datasets: [{
-          label: 'Ventas 2021',
+          label: 'Goles',
           data: this.array_proporciones_goles,
           backgroundColor: 'rgba(75, 192, 192, 0.2)',
           borderColor: 'rgba(75, 192, 192, 1)',
@@ -651,7 +667,7 @@ export class DatosPartidoComponent {
       data: {
         labels: ["Sitio","Total","Ultimos 4 sitio","Ultimos 8 total","Media"],
         datasets: [{
-          label: 'Ventas 2021',
+          label: 'Puntos',
           data: this.array_proporciones_puntos,
           backgroundColor: 'rgba(75, 192, 192, 0.2)',
           borderColor: 'rgba(75, 192, 192, 1)',

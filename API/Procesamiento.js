@@ -219,6 +219,21 @@ function procesarDatosEstadisticas(data, nombre_local, nombre_visitante) {
     }else{
       ordenado = clasificacion_equipos.sort((a, b) =>a.indicadores[g]- b.indicadores[g] );
     }
+
+
+
+
+
+    console.log("Clasificacion en g:"+g)
+    for (m = 0; m < ordenado.length; m++) {
+    var clasif=ordenado[m]
+    var posicion=m+1
+    console.log(posicion+";"+clasif.nombre+";"+clasif.indicadores[g])
+    }
+
+
+
+    
     
     for (q = 0; q < ordenado.length; q++) {
       if(g==0){
@@ -302,8 +317,8 @@ function procesarDatosEstadisticas(data, nombre_local, nombre_visitante) {
     }
 
   }
-  console.log(clasificaciones_posiciones)
-
+ 
+console.log(clasificaciones_posiciones)
 datos_equipo.push(clasificaciones_posiciones)
 
   return datos_equipo;
