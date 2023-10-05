@@ -17,4 +17,51 @@
               <button (click)="cargarDatosPartido()" class="btn btn-primary ms-2">Ver</button>
         </div>
     </div>
+
+
+
+    <div class="row">
+        <div class="col">
+            <h1>Apuestas seleccionadas para almacenar</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col">
+            <table class="table table-striped">
+                <thead>
+                  <tr>
+                    <th>Fecha</th>
+                    <th>Hora</th>
+                    <th>Nombre local</th>
+                    <th>Nombre visitante</th>
+                    <th>Mercado</th>
+                    <th>Cuota</th>
+                    <th>Stake</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let apuesta of array_apuestas_seleccionadas_tabla">
+                    <td>{{ apuesta[0] }}</td>
+                    <td>{{ apuesta[1] }}</td>
+                    <td>{{ apuesta[2]  }}</td>
+                    <td>{{ apuesta[3] }}</td>
+                    <td>{{ apuesta[4] }}</td>
+                    <td>{{ apuesta[5]  }}</td>
+                    <td>{{ apuesta[6]  }}</td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="row">
+        <div class="col">
+            <h1>Predicciones</h1>
+        </div>
+    </div>
 </div>

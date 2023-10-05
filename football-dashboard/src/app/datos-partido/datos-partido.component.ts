@@ -3,6 +3,7 @@ import { ConexionApiService } from '../conexion-api/conexion-api.service';
 import { Chart, registerables } from 'chart.js';
 import ChartDataLabels from 'chartjs-plugin-datalabels';
 import { ActivatedRoute } from '@angular/router';
+import { ComunicacionService } from '../comunicacion-servicio/comunicacion.service';
 
 Chart.register(...registerables);
 Chart.register(ChartDataLabels);
@@ -24,6 +25,12 @@ export class DatosPartidoComponent {
   chartGraficoProporcionesGolesVisitante: any
   mercadoSeleccionado: any
   seleccionMercado = false;
+  apuesta_almacenar_select_handicap:any;
+  stake_almacenar_select_handicap:any;
+  prediccion_almacenar_select_handicap:any;
+
+  opciones_select_apuesta_handicap:any[]=[];
+  opciones_select_prediccion_handicap:any[]=[];
   array_porcentajes_goles_mas: number[] = [0, 0, 0, 0, 0]
   array_porcentajes_goles_menos: number[] = [0, 0, 0, 0, 0]
 
@@ -88,11 +95,12 @@ export class DatosPartidoComponent {
   partidos_ultimos_4_visitante: any;
   nombreLocal: any
   nombreVisitante: any
-  constructor(private route: ActivatedRoute, private conexionAPI: ConexionApiService) { }
+  constructor(private servicioComunicacion: ComunicacionService,private route: ActivatedRoute, private conexionAPI: ConexionApiService) { }
 
   ngOnInit() {
     this.getDatosPartido(this.route.snapshot.params["id"]);//busco los datos concretos
 
+    console.log(this.servicioComunicacion.getArrayApuestasSeleccionadas())
   }
 
 
@@ -101,7 +109,19 @@ export class DatosPartidoComponent {
 
 
 
+almacenarApuestaHandicap(){
+  var elemento=this.datosPartido[0].fecha+"\t"+this.datosPartido[0].hora+"\t"+this.datosPartido[0].nombre_local+"\t"+this.datosPartido[0].nombre_visitante
+  var separar_dos_puntos=this.apuesta_almacenar_select_handicap.split(":")
+  elemento+="\t"+separar_dos_puntos[0]+"\t"+separar_dos_puntos[1].replace('.', ',')
+  elemento+="\t"+this.stake_almacenar_select_handicap
+  
+  
+  this.servicioComunicacion.pushArrayApuestasSeleccionadas(elemento)
+}
 
+almacenarPrediccionHandicap(){
+  console.log(this.prediccion_almacenar_select_handicap)
+}
 
 
 
@@ -117,6 +137,7 @@ export class DatosPartidoComponent {
         next: (data) => {
 
           this.datosPartido = data
+          
           this.estadisticas_local = this.datosPartido["estadisticas_local"]
           this.estadisticas_visitante = this.datosPartido["estadisticas_visitante"]
           this.clasificaciones = this.datosPartido["clasificaciones"]
@@ -283,6 +304,11 @@ export class DatosPartidoComponent {
               this.array_porcentajes_no_empate[5] = parseFloat(this.datosPartido[i].cuota_favor.replace(',', '.'))
               this.array_porcentajes_no_empate[6] = parseFloat(this.datosPartido[i].valor.replace(',', '.'))
 
+              if(this.array_porcentajes_no_empate[5]>0){
+                var elemento="no empate: "+this.array_porcentajes_no_empate[5]
+                this.opciones_select_apuesta_handicap.push(elemento)
+              }
+
             }
 
             if (this.datosPartido[i].mercado == "empate") {
@@ -313,6 +339,16 @@ export class DatosPartidoComponent {
               this.array_proporciones_puntos[3] = parseFloat(this.datosPartido[i].proporcion_relacionada_en_ultimos_8_general.replace(',', '.'))
               this.array_proporciones_puntos[4] = parseFloat(this.datosPartido[i].proporcion_relacionada_media.replace(',', '.'))
 
+              if(this.array_porcentajes_handicap_mas05_local[5]>0){
+                var elemento="handicap +0,5 local: "+this.array_porcentajes_handicap_mas05_local[5]
+                this.opciones_select_apuesta_handicap.push(elemento)
+              }
+
+              if(this.array_porcentajes_handicap_mas05_local[5]>1.3){
+                var elemento="handicap +0,5 local: "+this.array_porcentajes_handicap_mas05_local[5]
+                this.opciones_select_prediccion_handicap.push(elemento)
+              }
+
             }
 
             if (this.datosPartido[i].mercado == "handicap +0,5 visitante") {
@@ -324,6 +360,15 @@ export class DatosPartidoComponent {
               this.array_porcentajes_handicap_mas05_visitante[5] = parseFloat(this.datosPartido[i].cuota_favor.replace(',', '.'))
               this.array_porcentajes_handicap_mas05_visitante[6] = parseFloat(this.datosPartido[i].valor.replace(',', '.'))
 
+              if(this.array_porcentajes_handicap_mas05_visitante[5]>0){
+                var elemento="handicap +0,5 visitante: "+this.array_porcentajes_handicap_mas05_visitante[5]
+                this.opciones_select_apuesta_handicap.push(elemento)
+              }
+
+              if(this.array_porcentajes_handicap_mas05_visitante[5]>1.3){
+                var elemento="handicap +0,5 visitante: "+this.array_porcentajes_handicap_mas05_visitante[5]
+                this.opciones_select_prediccion_handicap.push(elemento)
+              }
             }
 
             if (this.datosPartido[i].mercado == "handicap -0,5 local") {
@@ -357,6 +402,16 @@ export class DatosPartidoComponent {
               this.array_porcentajes_handicap_mas15_local[5] = parseFloat(this.datosPartido[i].cuota_favor.replace(',', '.'))
               this.array_porcentajes_handicap_mas15_local[6] = parseFloat(this.datosPartido[i].valor.replace(',', '.'))
 
+              if(this.array_porcentajes_handicap_mas15_local[5]>0){
+                var elemento="handicap +1,5 local: "+this.array_porcentajes_handicap_mas15_local[5]
+                this.opciones_select_apuesta_handicap.push(elemento)
+              }
+
+              if(this.array_porcentajes_handicap_mas15_local[5]>1.3){
+                var elemento="handicap +1,5 local: "+this.array_porcentajes_handicap_mas15_local[5]
+                this.opciones_select_prediccion_handicap.push(elemento)
+              }
+
             }
 
             if (this.datosPartido[i].mercado == "handicap +1,5 visitante") {
@@ -367,6 +422,16 @@ export class DatosPartidoComponent {
               this.array_porcentajes_handicap_mas15_visitante[4] = parseFloat(this.datosPartido[i].porcentaje_mercado_media.replace(',', '.'))
               this.array_porcentajes_handicap_mas15_visitante[5] = parseFloat(this.datosPartido[i].cuota_favor.replace(',', '.'))
               this.array_porcentajes_handicap_mas15_visitante[6] = parseFloat(this.datosPartido[i].valor.replace(',', '.'))
+
+              if(this.array_porcentajes_handicap_mas15_visitante[5]>0){
+                var elemento="handicap +1,5 visitante: "+this.array_porcentajes_handicap_mas15_visitante[5]
+                this.opciones_select_apuesta_handicap.push(elemento)
+              }
+
+              if(this.array_porcentajes_handicap_mas15_visitante[5]>1.3){
+                var elemento="handicap +1,5 visitante: "+this.array_porcentajes_handicap_mas15_visitante[5]
+                this.opciones_select_prediccion_handicap.push(elemento)
+              }
 
             }
 
